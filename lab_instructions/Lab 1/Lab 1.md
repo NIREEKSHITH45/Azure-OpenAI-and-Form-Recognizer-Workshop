@@ -14,98 +14,121 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
 ### Pre-requisites
 * The accelerator is deployed and ready in the resource group
 * You have an Azure subscription and permission to create a Form Recognizer Resource
-* You have access to sample invoices folder with the invoices to upload
+* You have access to the sample invoices folder with the invoices to upload
 
 
 ### Instructions
 
-
 ### Step 1 Creating a Form Recognizer Resource
 
-#### 1.1 Go to the Resource group and select the "Cognitive services multi-service account" resource type
+1.1 Go to the Resource group, search, and select the "**Azure AI services multi-service account**" resource type
 
-![Alt text](<images/form recognizer resource creation 1.1.png>)
+   ![Alt text](images/select-multi-servicen.png)
 
-#### 1.2 Click on Form Recognizer tab and select "Go to Studio"
+1.2 Click on the Document Intelligence tab and select "**Go to Studio**"
 
-![Alt text](images/image.png)
+   ![Alt text](images/select-document-intelligence.png)
 
-#### 1.3 In Form Recognizer Studio, under Custom models, choose Create new
+1.3 In Document Intelligence Studio, scroll down to Custom models and choose **Create new**.
 
-![Alt text](images/image-1.png)
+   ![Alt text](images/custom-models.png)
 
-#### 1.4 Create a new project
+1.4 Under My Project click on  **+ Create a project**
 
-![Alt text](images/image-2.png)
+   ![Alt text](images/create-a-project.png)
 
-#### 1.5 Fill in project details
+1.5 Fill in project details and click on **Continue**  **(3)**.
+    
+  - Project name : **testproject** **(1)**.
+  - Description : **Custom model project** **(2)**.
 
-![Alt text](images/image-3.png)
+     ![Alt text](images/enter-project-details.png)
 
-#### 1.6 Fill in details for configuring service resource. For Form Recognizer or Cognitive Service Resource, choose the one available from your drop-down menu. Choose the General Available API version 2022-08-31
+1.6 Fill in details for configuring service resource and click on **Continue** **(5)**.
 
-![Alt text](images/image-4.png)
+  - Subscription : **Default Subscription** **(1)**.
+  - Resource group : **business-process-<inject key="Deployment ID" enableCopy="false"/>** **(2)**.
+  - Form Recognizer or Cognitive Service Resource: Select the available Cognitive Service Form Recognizer name similar to **cogservicesbpass{suffic}** **(3)**.
+  - API version : **2022-08-31 (3.0 General Availability)** **(4)**.
 
-#### 1.7 Configure data source details and for storage account, choose create new storage account
+     ![configuring service resource](images/configure-service-resource.png)
 
-![Alt text](<images/custom model ext configuration 2.png>)
+1.7 Fill in details for Connect training data source and click on **Continue** **(8)**.
 
-#### 1.8 validate the information and choose create project
+  - Subscription : **Default Subscription** **(1)**.
+  - Resource group : **business-process-<inject key="Deployment ID" enableCopy="false"/>** **(2)**.
+  - Check the box to **Create new storage account** **(3)**
+  - Storage account name : formrecognizer<inject key="Deployment ID" enableCopy="false"/> **(4)**.
+  - Location : **East US** **(5)**.
+  - Pricing tier : **Standard_LRS Standard** **(6)**.
+  - Blob container name : **custommoduletext** **(7)**.
 
-![Alt text](<images/create custom model project.png>)
+    ![storage account](images/connect-training-data-source.png)
 
+1.8 validate the information and choose **create project**
+
+  ![Alt text](images/create-project.png)
 
 ### Step 2 Train and Label data
-In this step, you will upload 5 training documents to train the model.
+In this step, you will upload 6 training documents to train the model.
 
-#### 2.1 Upload sample data 
-Use the data folder on VM desktop and go to [Custom Model Sample](/SampleInvoices/Custom%20Model%20Sample/) files and pick 5 files marked as train. Once uploaded, choose Run now in the pop-up window under Run Layout.
+2.1 Click on **Browse for files** 
 
-![Alt text](images/image-5.png)
+  ![Browse for files](images/browse-for-files.png)
 
+2.2  On the file explorer enter the following `C:\Users\Public\Desktop\Data\Custom Model Sample` path hit **enter**, select all train JPEG files **train1 thought train6**, and hit **open**.
 
-#### 2.2 Add a field
+  ![train-upload](images/train-upload.png)
 
-![Alt text](images/image-7.png)
+2.3 Once uploaded, choose **Run now** in the pop-up window under Run Layout.
 
-#### 2.3 Label the new field added by selecting the CONTOSO LTD in the top left of each document uploaded. Do this for all the five documents.
+  ![train-upload](images/train-upload.png)
 
-![Alt text](<images/1.3 label data new filed apply.png>)
+2.4 Click on **+ Add a field** **(1)**, select **Field** **(2)** , enter the field name as **Organization_sample** **(3)** and hit **enter**.
 
-#### 2.4 Once all the documents are labelled, choose Train in the top right corner
+  ![run-now](images/add-field.png)
 
-![Alt text](<images/1.3 label data train.png>)
+  ![run-now](images/add-field-name.png)
 
-#### 2.5 Specify a model ID and choose Template for the Build Mode. Save this Model ID somewhere as you will be needing it in next steps.
+2.5 Label the new field added by selecting **CONTOSO LTD** in the top left of each document uploaded. Do this for all the six documents.
 
-![Alt text](<images/1.3 train a new model .png>)
+  ![train-module](images/train-module.png)
 
-#### 2.6 Go to Models. Wait till the model status shows succeeded.
+2.6 Once all the documents are labeled, click on **Train** in the top right corner
 
-![Alt text](<images/1.3 go to models.png>)
+  ![Train](images/train-module1.png)
 
-Select the model you created and choose Test.
+2.7 Specify the model ID as **customfrs** **(1)**, Model Description as **custom model** **(2)**, from the drop down select **Template** **(3)** as Build Mode, and click on **Train** **(4)**.
 
-![Alt text](images/image-8.png)
+  ![Name](images/train-a-new-model.png)
 
-#### 2.7 In the Test model window, use the sample files marked as test from the [same location](/SampleInvoices/Custom%20Model%20Sample/) where you picked the files for training. Once uploaded, choose Run all analysis.
+2.8 Click on **Go to Models**. 
 
-![Alt text](images/image-9.png)
+![Alt text](images/training-in-progress.png)
 
-#### 2.8 Now you can see on the right hand side, the model was able to detect the field "Organization_sample" we created in the last step along with its confidence score
+2.9 Wait till the model status shows **succeeded** **(1)**.Once the status  Select the model **customfrs** **(2)** you created and choose **Test** **(3)**.
 
-![Alt text](<images/1.5 test model last step.png>)
+  ![select-models](images/select-models1.png)
 
+2.10 In the Test model window, click on **Browse for files**. 
 
-### Step 3 Build new pipeline with custom model module in BPA
+  ![select-models](images/test-upload.png)
 
-After you are sastified with the custom model performance, you can retrieve the model ID and use it in a new BPA pipeline with the Cusom Model module in the next step.
+2.11 On the file explorer enter the following `C:\Users\Public\Desktop\Data\Custom Model Sample` path hit **enter**, select all test JPEG files **test1 and test2**, and hit **open**.
 
-#### 3.1 Launch BPA Accelerator
+  ![test-file-upload](images/test-file-upload.png)
 
-Navigate to the Resource Group and select the resource group which is already created for you.
+2.12 Once uploaded, select one test model and click on **Run analysis**, now you can see on the right-hand side, that the model was able to detect the field "Organization_sample" we created in the last step along with its confidence score
 
-![Alt text](images/image-10.png)
+  ![Alt text](images/result.png)
+
+### Step 3 Build a new pipeline with the custom model module in BPA
+
+After you are satisfied with the custom model performance, you can retrieve the model ID and use it in a new BPA pipeline with the Custom Model module in the next step.
+
+3.1 Navigate back to the Resource Group and select the resource group **business-process-<inject key="Deployment ID" enableCopy="false"/>**.
+
+  ![Alt text](images/rg.png.png)
 
 #### 3.2 Select the static web app and click on the URL
 
