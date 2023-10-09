@@ -21,150 +21,150 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
 
 ### Step 1 Creating a Form Recognizer Resource
 
-1.1 Go to the Resource group, search, and select the "**Azure AI services multi-service account**" resource type
+1. Go to the Resource group, search, and select the "**Azure AI services multi-service account**" resource type
 
-   ![Alt text](images/select-multi-servicen.png)
+   ![Alt text](images/select-multi-service.png)
 
-1.2 Click on the Document Intelligence tab and select "**Go to Studio**"
+2. Click on the Document Intelligence tab and select "**Go to Studio**"
 
    ![Alt text](images/select-document-intelligence.png)
 
-1.3 In Document Intelligence Studio, scroll down to Custom models and choose **Create new**.
+3. In Document Intelligence Studio, scroll down to Custom Models and choose **Create new**.
 
    ![Alt text](images/custom-models.png)
 
-1.4 Under My Project click on  **+ Create a project**
+4. Under My Project click on  **+ Create a project**
 
    ![Alt text](images/create-a-project.png)
 
-1.5 Fill in project details and click on **Continue**  **(3)**.
+5. Fill in project details and click on **Continue**  **(3)**.
     
-  - Project name : **testproject** **(1)**.
-  - Description : **Custom model project** **(2)**.
+   - Project name : **testproject** **(1)**.
+   - Description : **Custom model project** **(2)**.
 
      ![Alt text](images/enter-project-details.png)
 
-1.6 Fill in details for configuring service resource and click on **Continue** **(5)**.
+6. Fill in details for configuring service resource and click on **Continue** **(5)**.
 
-  - Subscription : **Default Subscription** **(1)**.
-  - Resource group : **business-process-<inject key="Deployment ID" enableCopy="false"/>** **(2)**.
-  - Form Recognizer or Cognitive Service Resource: Select the available Cognitive Service Form Recognizer name similar to **cogservicesbpass{suffic}** **(3)**.
-  - API version : **2022-08-31 (3.0 General Availability)** **(4)**.
+   - Subscription : **Default Subscription** **(1)**.
+   - Resource group : **business-process-<inject key="Deployment ID" enableCopy="false"/>** **(2)**.
+   - Form Recognizer or Cognitive Service Resource: Select the available Cognitive Service Form Recognizer name similar to **cogservicesbpass{suffic}** **(3)**.
+   - API version : **2022-08-31 (3.0 General Availability)** **(4)**.
 
      ![configuring service resource](images/configure-service-resource.png)
 
-1.7 Fill in details for Connect training data source and click on **Continue** **(8)**.
+7. Fill in details for Connect training data source and click on **Continue** **(8)**.
 
-  - Subscription : **Default Subscription** **(1)**.
-  - Resource group : **business-process-<inject key="Deployment ID" enableCopy="false"/>** **(2)**.
-  - Check the box to **Create new storage account** **(3)**
-  - Storage account name : formrecognizer<inject key="Deployment ID" enableCopy="false"/> **(4)**.
-  - Location : **East US** **(5)**.
-  - Pricing tier : **Standard_LRS Standard** **(6)**.
-  - Blob container name : **custommoduletext** **(7)**.
+   - Subscription : **Default Subscription** **(1)**.
+   - Resource group : **business-process-<inject key="Deployment ID" enableCopy="false"/>** **(2)**.
+   - Check the box to **Create new storage account** **(3)**
+   - Storage account name : formrecognizer<inject key="Deployment ID" enableCopy="false"/> **(4)**.
+   - Location : **East US** **(5)**.
+   - Pricing tier : **Standard_LRS Standard** **(6)**.
+   - Blob container name : **custommoduletext** **(7)**.
+   
+        ![storage account](images/connect-training-data-source.png)
 
-    ![storage account](images/connect-training-data-source.png)
+8. validate the information and choose **create project**
 
-1.8 validate the information and choose **create project**
-
-  ![Alt text](images/create-project.png)
+     ![Alt text](images/create-project.png)
 
 ### Step 2 Train and Label data
 In this step, you will upload 6 training documents to train the model.
 
-2.1 Click on **Browse for files** 
+1. Click on **Browse for files** 
 
-  ![Browse for files](images/browse-for-files.png)
+     ![Browse for files](images/browse-for-files.png)
 
-2.2  On the file explorer enter the following `C:\Users\Public\Desktop\Data\Custom Model Sample` path hit **enter**, select all train JPEG files **train1 thought train6**, and hit **open**.
+2.  On the file explorer enter the following `C:\Users\Public\Desktop\Data\Custom Model Sample` path hit **enter**, select all train JPEG files **train1 thought train6**, and hit **open**.
 
-  ![train-upload](images/train-upload.png)
+     ![train-upload](images/train-upload.png)
 
-2.3 Once uploaded, choose **Run now** in the pop-up window under Run Layout.
+3. Once uploaded, choose **Run now** in the pop-up window under Run Layout.
 
-  ![train-upload](images/train-upload.png)
+     ![train-upload](images/train-upload.png)
 
-2.4 Click on **+ Add a field** **(1)**, select **Field** **(2)** , enter the field name as **Organization_sample** **(3)** and hit **enter**.
+4. Click on **+ Add a field** **(1)**, select **Field** **(2)** , enter the field name as **Organization_sample** **(3)** and hit **enter**.
 
-  ![run-now](images/add-field.png)
+     ![run-now](images/add-field.png)
 
-  ![run-now](images/add-field-name.png)
+     ![run-now](images/add-field-name.png)
 
-2.5 Label the new field added by selecting **CONTOSO LTD** in the top left of each document uploaded. Do this for all the six documents.
+5. Label the new field added by selecting **CONTOSO LTD** in the top left of each document uploaded. Do this for all the six documents.
 
-  ![train-module](images/train-module.png)
+     ![train-module](images/train-module.png)
 
-2.6 Once all the documents are labeled, click on **Train** in the top right corner
+6. Once all the documents are labeled, click on **Train** in the top right corner
 
-  ![Train](images/train-module1.png)
+     ![Train](images/train-module1.png)
 
-2.7 Specify the model ID as **customfrs** **(1)**, Model Description as **custom model** **(2)**, from the drop down select **Template** **(3)** as Build Mode, and click on **Train** **(4)**.
+7. Specify the model ID as **customfrs** **(1)**, Model Description as **custom model** **(2)**, from the drop down select **Template** **(3)** as Build Mode, and click on **Train** **(4)**.
 
-  ![Name](images/train-a-new-model.png)
+     ![Name](images/train-a-new-model.png)
 
-2.8 Click on **Go to Models**. 
+8. Click on **Go to Models**. 
 
-![Alt text](images/training-in-progress.png)
+   ![Alt text](images/training-in-progress.png)
 
-2.9 Wait till the model status shows **succeeded** **(1)**.Once the status  Select the model **customfrs** **(2)** you created and choose **Test** **(3)**.
+9. Wait till the model status shows **succeeded** **(1)**.Once the status  Select the model **customfrs** **(2)** you created and choose **Test** **(3)**.
 
-  ![select-models](images/select-models1.png)
+     ![select-models](images/select-models1.png)
 
-2.10 In the Test model window, click on **Browse for files**. 
+10. In the Test model window, click on **Browse for files**. 
 
-  ![select-models](images/test-upload.png)
+     ![select-models](images/test-upload.png)
 
-2.11 On the file explorer enter the following `C:\Users\Public\Desktop\Data\Custom Model Sample` path hit **enter**, select all test JPEG files **test1 and test2**, and hit **open**.
+11. On the file explorer enter the following `C:\Users\Public\Desktop\Data\Custom Model Sample` path hit **enter**, select all test JPEG files **test1 and test2**, and hit **open**.
 
-  ![test-file-upload](images/test-file-upload.png)
+     ![test-file-upload](images/test-file-upload.png)
 
-2.12 Once uploaded, select one test model and click on **Run analysis**, now you can see on the right-hand side, that the model was able to detect the field "Organization_sample" we created in the last step along with its confidence score
+12. Once uploaded, select one test model and click on **Run analysis**, now you can see on the right-hand side, that the model was able to detect the field "Organization_sample" we created in the last step along with its confidence score
 
-  ![Alt text](images/result.png)
+     ![Alt text](images/result.png)
 
 ### Step 3 Build a new pipeline with the custom model module in BPA
 
 After you are satisfied with the custom model performance, you can retrieve the model ID and use it in a new BPA pipeline with the Custom Model module in the next step.
 
-3.1 Navigate back to the Resource Group and select the resource group **business-process-<inject key="Deployment ID" enableCopy="false"/>**.
+1. Navigate back to the Resource Group and select the resource group **business-process-<inject key="Deployment ID" enableCopy="false"/>**.
 
   ![Alt text](images/rg.png.png)
 
-#### 3.2 Select the static web app and click on the URL
+2. Select the static web app and click on the URL
 
-![Alt text](<images/static web app.png>)
+   ![Alt text](<images/static web app.png>)
 
-![Alt text](images/image-11.png)
+   ![Alt text](images/image-11.png)
 
-#### 3.3 Choose Create/Update/Delete Pipelines option and create a new pipeline by specifying a name
+3. Choose Create/Update/Delete Pipelines option and create a new pipeline by specifying a name
 
-![Alt text](<images/launch bpa step 5.png>)
+   ![Alt text](<images/launch bpa step 5.png>)
 
-![Alt text](<images/bpa 2.png>)
+   ![Alt text](<images/bpa 2.png>)
 
-#### 3.4 Select PDF Document
+4. Select PDF Document
 
-![Alt text](images/image-12.png)
+   ![Alt text](images/image-12.png)
 
-#### 3.5 Select Form Recognizer custom model (batch) option and specify the model ID you gave in Step 2. 
+5. Select the Form Recognizer custom model (batch) option and specify the model ID you gave in Step 2. 
 
-![Alt text](images/image-13.png)
+   ![Alt text](images/image-13.png)
 
-![Alt text](images/image-14.png)
+   ![Alt text](images/image-14.png)
 
 Click on Done
 
-![Alt text](images/image-15.png)
+   ![Alt text](images/image-15.png)
 
-#### 3.6 Now you will be ingesting documents by going to the Home page of BPA and choosing Ingest Documents option.
+6. Now you will be ingesting documents by going to the Home page of BPA and choosing the Ingest Documents option.
 
-![Alt text](images/image-16.png)
+   ![Alt text](images/image-16.png)
 
-#### 3.7 From the Select a pipeline drop-down, select the pipeline you just created and click on upload under upload a single document
+7. From the Select a pipeline drop-down, select the pipeline you just created and click on upload under Upload a single document
 
-![Alt text](images/image-17.png)
+   ![Alt text](images/image-17.png)
 
-#### 3.8 For documents, go to [Lab 1 Step 3.7](/SampleInvoices/Lab%201%20Step%203.7/) folder. You can upload multiple invoice one-by-one.
+8. For documents, go to [Lab 1 Step 3.7](/SampleInvoices/Lab%201%20Step%203.7/) folder. You can upload multiple invoice one-by-one.
 
 
 ### Step 4 Configure Azure Cognitive Search 
