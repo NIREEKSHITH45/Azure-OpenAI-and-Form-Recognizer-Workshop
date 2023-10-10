@@ -5,7 +5,7 @@ In this lab, you will be using your own data with Azure OpenAI Large Language Mo
 
 
 ### Goal
-* How to leverage the chatGPT LLM to extract concise summary from your own document repository using OpenAI.
+* How to leverage the chatGPT LLM to extract a concise summary from your own document repository using OpenAI.
 
 ### Pre-requisites
 * Access to Azure OpenAI chat playground
@@ -13,58 +13,83 @@ In this lab, you will be using your own data with Azure OpenAI Large Language Mo
 
 ### Instructions
 
-### Step 1: Navigate to Azure OpenAI Playground
+### Task 1: Navigate to Azure OpenAI Playground
 
-![Alt text](images/image.png)
+1. Navigate back to the Resource Group and select the resource group **business-process-<inject key="Deployment ID" enableCopy="false"/>**.
 
-* 1.1 Click on **"Go to Azure OpenAI Studio"**
+   ![RG](../images/rg.png)
 
-![Alt text](images/image-1.png)
+2. On the Resource group, search, and select the **Azure OpenAI** resource type, with the name similar **oaibpa{suffix}**.
 
-* 1.2 Click on **"Bring your own data"**
+   ![OpenAI](images/openai.png)
 
-![Alt text](images/image-2.png)
+3. On the **Azure OpenAI** page, click on **"Go to Azure OpenAI Studio"**
 
-### Step 2: Upload your own data
+   ![OpenAI Studio](images/OpenAI-Studio.png)
+
+4. On the **Azure OpenAI Studio**, scroll down click on **"Bring your own data"**
+
+   ![Azure OpenAI Studio](images/dring-your-own-data.png)
+
+### Task 2: Upload your own data
 In this step, we will be using Porche's owner manual for Taycan, Panamera and Cayenne models.
 
-* 2.1 Select the following options for adding the data source pop-up:
-    * 2.1.1 Select data source: Upload files
-    * 2.1.2 Select Azure Blob storage resource: Choose the already created storage account from the dropdown. If asked, enable CORS.
-    * 2.1.3 Select Azure Cognitive Search resource: Select the search service used in the previous lab from the dropdown.
-    * 2.1.4 Enter the index name: Give an index name e.g aoaiworkshop
-    * 2.1.5 Check the acknowledgement and click Next.
+1. Fill in the fallowing details in **Select or add data source** and click on **Next** **(6)**.
+    
+    - Select data source: **Upload files** **(1)**
+    - Select Azure Blob storage resource: Choose the already created storage account from the dropdown **(2)**. If asked, enable CORS.
+    - Select Azure Cognitive Search resource: Select the search service used in the previous lab from the dropdown **(3)**.
+    - Enter the index name: Give an index name as **aoaiworkshop** **(4)**
+    - Check the **I acknowledge that connecting to an Azure Cognitive Search account will incur usage to my account** **(5)**.
 
-![Alt text](images/image-3.png)
+   ![add-data](images/add-data.png) 
 
-* 2.2 Click on Browse for a file and select the Porche Owner Manual pdf and click Upload files and Next. You can select multiple files as well.
+2. On the **Data Management**, click on **Browse** **(1)** file explorer enter the following `C:\Users\Public\Desktop\Data\Lab 2` **(2)** path and hit enter, select the **Panamera-from-2021-Porsche-Connect-Good-to-know-Owner-s-Manual** **(3)** pdf  file and click on **Open** **(4)** files.
 
-![Alt text](images/image-4.png)
+   ![data-management](images/data-management.png)
 
-* 2.3 Click on Save and close
+3. It will redirect to **Data Management**, click on **Upload files** **(1)**, and click on **Next** **(2)**.
 
-![Alt text](images/image-5.png)
+   ![data-management](images/data-management-upload.png)
 
-### Step 3: Interact with Azure OpenAI chatGPT LLM using your own data
+4. On the **Data Management** page, from the drop-down select **keyword** as Search type 
 
-* 3.1 Under the Assistant Setup pane, wait until your data upload is finished
+   ![keyword](images/keyword.png)
 
-![Alt text](images/image-6.png)
+5. On the **Review and finish** page, click on **Save and close**.
 
-* 3.2 Under the Chat Session pane, you can start testing out your prompts as shown in the figure below
+   ![Save and close](images/save-and-close.png)
 
-![Alt text](images/image-7.png)
+### Task 3: Interact with Azure OpenAI chatGPT LLM using your own data
 
-* 3.3 You can also configure the responses of your bot by selecting the system message under Assistance Setup. Here we have edited the default system message.
+1. Under the **Assistant Setup** pane, wait until your data upload is finished.
 
-![Alt text](images/image-9.png)
+   ![upload-data](images/upload-data.png)
 
-* 3.4 Click on Continue
+2. Under the **Chat Session** pane, you can start testing out your prompts by entering the query like.
 
-![Alt text](images/image-10.png)
+    ```
+    how to operate Android Auto in Porche Taycan? give step-by-step instructions
+    ```
 
-![Alt text](images/image-11.png)
+      ![chat-session-one](images/chat-session-one.png)
 
-* 3.5 In Configuration pane, you can try and experiment with different parameter configuration to see how it changes the behavior of the model
+3. You can also configure the responses of your bot by selecting the system message under **Assistance Setup**, and click on **System message** **(2)** to replace the value under the system message with `Your name is Alice. You are an AI assistant that helps people find information about Porche cars. Your responses should not contain any harmful information`  **(2)** and click on **Save Changes** **(4)**. Here we have edited the default system message.
 
-![Alt text](images/image-8.png)
+   ![assistant-setup-system-message](images/assistant-setup-system-message.png)
+
+4. On **Update system message?** pop-up, click on **Continue**.
+
+   ![Alt text](images/Continue.png)
+
+5. Under the **Chat Session** pane, you can start testing out your prompts by entering the query like.
+
+    ```
+     What your name
+    ```
+   
+   ![chat-session-two](images/chat-session-two.png)
+
+6. In the **Configuration** pane click on **Parameters**, you can try and experiment with different parameter configuration to see how it changes the behavior of the model
+
+   ![Alt text](images/Parameters.png)
