@@ -16,7 +16,7 @@
 
 1. You can also open the Lab Guide in a separate and full window by selecting the **Split Window** from the top right corner.
 
-   ![](images/split1.png "Enter Email")
+   ![](images/POWER(1).png "Enter Email")
  
 ## Login to Azure Portal
 
