@@ -135,7 +135,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
 3. On the **Static Web App** page, click on **Browse**.
 
-      ![webappbpa](images/static-web-page-browse.png)
+      ![webappbpa](images/form.png)
 
 4. Once the **Business Process Automation Accelerator** page loaded successfully, click on the **Create/Update/Delete Pipelines**. 
 
@@ -200,13 +200,13 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
      ![Storage account](images/stoarge-account.png)
 
-5. Select **result** **(1)** container from the **Containers** page and click on **Select** **(2)**. It will redirect back to **Connection to your data** page.
+5. Select **results** **(1)** container from the **Containers** page and click on **Select** **(2)**. It will redirect back to **Connection to your data** page.
 
      ![Storage account](images/continers.png)   
   
 6. On the **Connection to your data** page, enter the **workshop** **(1)** in **Blob folder** and click on **Next : Add cognitive skills (Optional)** (2).
 
-   ![Connection](images/connection-to-your-data-blob.png)
+   ![Connection](images/connection-to-your-data-blob(1).png)
 
 7. On the **Add cognitive skills (Optional)** click on **Skip to : Customize target index**.
 
