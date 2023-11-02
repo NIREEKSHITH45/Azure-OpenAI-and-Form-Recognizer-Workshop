@@ -206,7 +206,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
   
 6. On the **Connection to your data** page, enter the **workshop** **(1)** in **Blob folder** and click on **Next : Add cognitive skills (Optional)** (2).
 
-   ![Connection](images/connection-to-your-data-blob.png)
+   ![Connection](images/connection-to-your-data-blob(1).png)
 
 7. On the **Add cognitive skills (Optional)** click on **Skip to : Customize target index**.
 
