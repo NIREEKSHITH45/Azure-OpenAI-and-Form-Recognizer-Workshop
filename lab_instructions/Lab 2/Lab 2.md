@@ -85,7 +85,7 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera and Ca
 5. Under the **Chat Session** pane, you can start testing out your prompts by entering the query like.
 
     ```
-     What your name
+     What is your name
     ```
    
    ![chat-session-two](images/chat-session-two.png)
