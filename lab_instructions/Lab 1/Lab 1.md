@@ -200,7 +200,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
      ![Storage account](images/stoarge-account.png)
 
-5. Select **result** **(1)** container from the **Containers** page and click on **Select** **(2)**. It will redirect back to **Connection to your data** page.
+5. Select **results** **(1)** container from the **Containers** page and click on **Select** **(2)**. It will redirect back to **Connection to your data** page.
 
      ![Storage account](images/continers.png)   
   
