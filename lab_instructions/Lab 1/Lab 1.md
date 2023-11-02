@@ -135,7 +135,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
 3. On the **Static Web App** page, click on **Browse**.
 
-      ![webappbpa](images/static-web-page-browse.png)
+      ![webappbpa](images/form.png)
 
 4. Once the **Business Process Automation Accelerator** page loaded successfully, click on the **Create/Update/Delete Pipelines**. 
 
