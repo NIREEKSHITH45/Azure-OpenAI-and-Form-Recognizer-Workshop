@@ -8,8 +8,8 @@ In this lab, you will be using your own data with Azure OpenAI Large Language Mo
 * How to leverage the chatGPT LLM to extract a concise summary from your own document repository using OpenAI.
 
 ### Pre-requisites
-* Access to Azure OpenAI chat playground
-* Sample data to test with OpenAI
+* Access to Azure OpenAI chat playground.
+* Sample data to test with OpenAI.
 
 ### Instructions
 
@@ -19,32 +19,37 @@ In this lab, you will be using your own data with Azure OpenAI Large Language Mo
 
    ![RG](../images/rg.png)
 
-2. On the Resource group, search, and select the **Azure OpenAI** resource type, with the name similar **oaibpa{suffix}**.
+2. On the Resource groups, search, and select the **Azure OpenAI** resource type, with the name similar **oaibpa{suffix}**.
 
    ![OpenAI](images/openai.png)
 
-3. On the **Azure OpenAI** page, click on **"Go to Azure OpenAI Studio"**
+3. On the **Azure OpenAI** page, click on **Go to Azure OpenAI Studio**.
 
    ![OpenAI Studio](images/OpenAI-Studio.png)
 
-4. On the **Azure OpenAI Studio**, scroll down click on **"Bring your own data"**
+4. On the **Azure OpenAI Studio**, scroll down click on **Bring your own data**.
 
    ![Azure OpenAI Studio](images/dring-your-own-data.png)
 
 ### Task 2: Upload your own data
+
 In this step, we will be using Porche's owner manual for Taycan, Panamera and Cayenne models.
 
 1. Fill in the fallowing details in **Select or add data source** and click on **Next** **(6)**.
     
     - Select data source: **Upload files** **(1)**
+
     - Select Azure Blob storage resource: Choose the already created storage account from the dropdown **(2)**. If asked, enable CORS.
+
     - Select Azure Cognitive Search resource: Select the search service used in the previous lab from the dropdown **(3)**.
+
     - Enter the index name: Give an index name as **aoaiworkshop** **(4)**
+
     - Check the **I acknowledge that connecting to an Azure Cognitive Search account will incur usage to my account** **(5)**.
 
-   ![add-data](images/add-data.png) 
+      ![add-data](images/add-data.png) 
 
-2. On the **Data Management**, click on **Browse** **(1)** file explorer enter the following `C:\Users\Public\Desktop\Data\Lab 2` **(2)** path and hit enter, select the **Panamera-from-2021-Porsche-Connect-Good-to-know-Owner-s-Manual** **(3)** pdf  file and click on **Open** **(4)** files.
+2. On the **Data Management**, click on **Browse for a file** **(1)** file explorer enter the following `C:\Users\Public\Desktop\Data\Lab 2` **(2)** path and hit enter, select the **Panamera-from-2021-Porsche-Connect-Good-to-know-Owner-s-Manual** **(3)** pdf  file and click on **Open** **(4)** files.
 
    ![data-management](images/data-management.png)
 
@@ -52,7 +57,7 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera and Ca
 
    ![data-management](images/data-management-upload.png)
 
-4. On the **Data Management** page, from the drop-down select **keyword** as Search type 
+4. On the **Data Management** page, from the drop-down select **keyword (1)** as Search type and click on **Next (2)**.
 
    ![keyword](images/keyword.png)
 
@@ -74,7 +79,7 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera and Ca
 
       ![chat-session-one](images/chat-session-one.png)
 
-3. You can also configure the responses of your bot by selecting the system message under **Assistance Setup**, and click on **System message** **(2)** to replace the value under the system message with `Your name is Alice. You are an AI assistant that helps people find information about Porche cars. Your responses should not contain any harmful information`  **(2)** and click on **Save Changes** **(4)**. Here we have edited the default system message.
+3. You can also configure the responses of your bot by selecting the system message under **Assistance Setup**, and click on **System message** **(1)** to replace the value under the system message with `Your name is Alice. You are an AI assistant that helps people find information about Porche cars. Your responses should not contain any harmful information`  **(2)** and click on **Save Changes** **(3)**. Here we have edited the default system message.
 
    ![assistant-setup-system-message](images/assistant-setup-system-message.png)
 
