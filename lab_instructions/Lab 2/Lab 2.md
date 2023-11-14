@@ -18,7 +18,7 @@ In this lab, you will be using your own data with Azure OpenAI Large Language Mo
 
    ![RG](../images/rg.png)
 
-2. On the Resource groups, search, and select the **Azure OpenAI** resource type with the name similar to **oaibpa{suffix}**.
+2. On the Resource group, search, and select the **Azure OpenAI** resource type with the name similar to **oaibpa{suffix}**.
 
    ![OpenAI](images/openai.png)
 
@@ -82,7 +82,7 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera, and C
 
       ![chat-session-one](images/chat-session-one.png)
 
-3. You can also configure the responses of your bot by selecting the system message under **Assistance Setup**, and click on **System message** **(1)** to replace the value under the system message with `Your name is Alice. You are an AI assistant that helps people find information about Porche cars. Your responses should not contain any harmful information` **(2)** and click on **Save Changes** **(3)**. Here we have edited the default system message.
+3. You can also configure the responses of your bot by selecting the system message under **Assistance Setup**, and click on **System message** **(1)** to replace the value under the system message with `Your name is Alice. You are an AI assistant that helps people find information about Porche cars. Your responses should not contain any harmful information` **(2)** and click on **Save changes** **(3)**. Here we have edited the default system message.
 
    ![assistant-setup-system-message](images/assistant-setup-system-message.png)
 

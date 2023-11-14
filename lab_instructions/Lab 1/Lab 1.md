@@ -134,7 +134,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
    ![webappbpa](images/static-web-page.png)
 
-3. On the **Static Web App** page, click on **View app in Browser**.
+3. On the **Static Web App** page, click on **View app in browser**.
 
       ![webappbpa](images/form.png)
 
@@ -150,7 +150,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
    ![workshop](images/image-document.png)
 
-7. On the **Select a stage to add it to your pipeline configuration** page, search and select for **Form Recognizer custom model (batch)**.
+7. On the **Select a stage to add it to your pipeline configuration** page, search and select for **Form Recognizer Custom Model (Batch)**.
 
    ![workshop](images/form-recognizer-custom-model.png)
 
@@ -180,24 +180,24 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
 ### Task 4: Configure Azure Cognitive Search 
 
-1. Navigate back to the resource group window, search, and select **Search Service** with a name similar to **bpa{suffix}**
+1. Navigate back to the resource group window, search, and select **Search Service** with a name similar to **bpa{suffix}**.
 
    ![search service](images/rg3.png)
 
-2. On the **Search Service** page, click on **Import data**.
+2. On the **Search service** page, click on **Import data**.
 
    ![Data source](images/BPA1.png)
 
-3. Enter the following details for **Connection to your data**.
+3. Enter the following details for **Connect to your data**.
 
    - Data Source: Select **Azure Blob Storage** **(1)**
    - Data Source Name: Enter **workshop** **(2)**.
    - Parsing mode: Select **JSON** **(3)**.
-   - Click on **Choose an existing connection** **(4)** under connection string.
+   - Click on **Choose an existing connection** **(4)** under Connection string.
   
      ![Connection to your data](images/connection-to-your-data.png)
 
-4. On the **Storage account** page, select the storage account named similar to **bap{suffix}**. 
+4. On the **Storage accounts** page, select the storage account named similar to **bpass{suffix}**. 
 
      ![Storage account](images/stoarge-account.png)
 
@@ -205,7 +205,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
      ![Storage account](images/continers.png)   
   
-6. On the **Connect to your data** page, enter the **workshop** **(1)** in **Blob folder** and click on **Next : Add cognitive skills (Optional) (2)**.
+6. On the **Connect to your data** page, enter the **workshop** **(1)** as **Blob folder** and click on **Next : Add cognitive skills (Optional) (2)**.
 
    ![Connection](images/connection-to-your-data-blob(1).png)
 
