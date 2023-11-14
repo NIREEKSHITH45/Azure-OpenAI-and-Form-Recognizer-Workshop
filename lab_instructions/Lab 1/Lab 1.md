@@ -45,16 +45,16 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
 
 6. Enter the following details **configuring service resource** and click on **Continue** **(5)**.
 
-   - Subscription: **Default Subscription** **(1)**.
+   - Subscription: Select your **Default Subscription** **(1)**.
    - Resource group: **business-process-<inject key="Deployment ID" enableCopy="false"/>** **(2)**.
-   - Form Recognizer or Cognitive Service Resource: Select the available Cognitive Service Form Recognizer name similar to **cogservicesbpass{suffic}** **(3)**.
+   - Form Recognizer or Cognitive Service Resource: Select the available Cognitive Service Form Recognizer name similar to **cogservicesbpass{suffix}** **(3)**.
    - API version: **2022-08-31 (3.0 General Availability)** **(4)**.
 
      ![configuring service resource](images/configure-service-resource.png)
 
 7. Enter the following details **Connect training data source** and click on **Continue** **(8)**.
 
-   - Subscription: **Default Subscription** **(1)**.
+   - Subscription: Select your **Default Subscription** **(1)**.
    - Resource group: **business-process-<inject key="Deployment ID" enableCopy="false"/>** **(2)**.
    - Check the box to **Create new storage account** **(3)**
    - Storage account name: **formrecognizer<inject key="Deployment ID" enableCopy="false"/>** **(4)**.
@@ -64,7 +64,7 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
    
         ![storage account](images/connect-training-data-source.png)
 
-8. Validate the information and choose **create project**.
+8. Validate the information and choose **Create project**.
 
      ![Alt text](images/create-project.png)
 
@@ -215,9 +215,9 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
       ![Connection](images/retrievable-searchable.png)
 
-9. Expand the **content** **(1)** > **aggregatedResults** **(2)** > **customFormRec**  **(3)** > **documents** **(4)** > **fields** **(5)** under it, expand **Organization_sample**. Make the three fields Facetable **(type, valueString & content)** **(6)** and click on **Next: Create an indexer** **(7)**.
+9. Expand the **aggregatedResults** **(1)** > **customFormRec** **(2)** > **documents** **(3)** > **fields** **(4)** under it, expand **Organization_sample (5)**. Make the three fields Facetable **(type, valueString & content)** **(6)** and click on **Next: Create an indexer** **(7)**.
 
-      ![import-data](images/import-data.png)
+      ![import-data](images/BPA5.png)
 
 7. On the **Create an indexer** page, enter the name as **azureblob-indexer** **(1)** and click on **Submit** **(2)**.
    
