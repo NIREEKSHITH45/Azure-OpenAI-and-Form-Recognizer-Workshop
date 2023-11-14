@@ -76,7 +76,7 @@ In this step, you will upload 6 training documents to train the model.
 
      ![Browse for files](images/browse-for-files.png)
 
-2.  On the file explorer enter the following `C:\Users\Public\Desktop\Data\Custom Model Sample` **(1)** path hit **enter**, select all train JPEG files **train1 throught train6** **(2)**, and hit **Open** **(3)**.
+2.  On the file explorer enter the following `C:\Users\Public\Desktop\Data\Custom Model Sample` **(1)** path hit **enter**, select all train JPEG files **train1 to train6** **(2)**, and hit **Open** **(3)**.
 
      ![train-upload](images/train-upload.png)
 
@@ -134,7 +134,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
    ![webappbpa](images/static-web-page.png)
 
-3. On the **Static Web App** page, click on **Browse**.
+3. On the **Static Web App** page, click on **View app in Browser**.
 
       ![webappbpa](images/form.png)
 
@@ -142,7 +142,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
    ![Web APP](images/select-create-pipeline.png)
 
-5. On the **Create Or Select A Pipeline** page, Enter New Pipeline Name as **workshop** **(1)**, and click on the **Create Custom Pipeline** **(2)**. 
+5. On the **Create Or Select A Pipeline** page, enter New Pipeline Name as **workshop** **(1)**, and click on the **Create Custom Pipeline** **(2)**. 
 
    ![workshop](images/create-pipeline.png)
 
@@ -162,7 +162,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
    ![Pipeline Preview](images/done-pipeline.png)
 
-10. On the **piplelines workshop** page, click on **home**. 
+10. On the **piplelines workshop** page, click on **Home**. 
 
       ![home-pipeline](images/home-pipeline.png)
 
@@ -184,7 +184,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
    ![search service](images/rg3.png)
 
-2. On the **Search Service** page, click on **Import Data**.
+2. On the **Search Service** page, click on **Import data**.
 
    ![Data source](images/static-web-page-browse.png)
 
@@ -192,7 +192,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
    - Data Source : Select **Azure Blob Storage** **(1)**
    - Data Source Name : Enter **workshop** **(2)**.
-   - Parsing mode : Select **Json** **(3)**.
+   - Parsing mode : Select **JSON** **(3)**.
    - Click on **Choose an existing connection** **(4)** under connection string.
   
      ![Connection to your data](images/connection-to-your-data.png)
@@ -205,7 +205,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
      ![Storage account](images/continers.png)   
   
-6. On the **Connection to your data** page, enter the **workshop** **(1)** in **Blob folder** and click on **Next : Add cognitive skills (Optional) (2)**.
+6. On the **Connect to your data** page, enter the **workshop** **(1)** in **Blob folder** and click on **Next : Add cognitive skills (Optional) (2)**.
 
    ![Connection](images/connection-to-your-data-blob(1).png)
 
@@ -230,7 +230,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
    ![Sample Search Applicationt](images/sample-search-application.png)
 
-2. On the **Sample Search Application** page, in the search bar enter **invoice1** **(1)** and click on **search** **(2)**.
+2. On the **Sample Search Application** page, in the search bar enter **invoice1** **(1)** and click on **Search** **(2)**.
 
    ![output](images/output.png)
 
