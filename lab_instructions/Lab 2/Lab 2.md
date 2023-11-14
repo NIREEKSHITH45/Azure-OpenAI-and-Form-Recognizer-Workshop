@@ -3,7 +3,6 @@
 ### Overview
 In this lab, you will be using your own data with Azure OpenAI Large Language Models(LLM) which will be made searchable using Azure Cognitive Search. You will be using the Porche Owner's Manual pdf provided under [Lab 2](/SampleInvoices/Lab%202/) folder.
 
-
 ### Goal
 * How to leverage the chatGPT LLM to extract a concise summary from your own document repository using OpenAI.
 
@@ -39,7 +38,7 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera and Ca
     
     - Select data source: **Upload files** **(1)**
 
-    - Subscription: Select your subscription from drop down section **(2)**
+    - Subscription: Select your subscription from drop-down section **(2)**
 
     - Select Azure Blob storage resource: Choose the already created storage account from the dropdown **(3)**. If asked, enable CORS.
 
