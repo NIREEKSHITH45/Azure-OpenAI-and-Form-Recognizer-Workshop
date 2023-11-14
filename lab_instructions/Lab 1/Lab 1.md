@@ -186,7 +186,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
 2. On the **Search Service** page, click on **Import data**.
 
-   ![Data source](images/static-web-page-browse.png)
+   ![Data source](images/BPA1.png)
 
 3. Enter the following details for **Connection to your data**.
 
