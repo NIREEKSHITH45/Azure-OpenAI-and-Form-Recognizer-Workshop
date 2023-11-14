@@ -43,7 +43,7 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
 
      ![Alt text](images/enter-project-details.png)
 
-6. Enter the following details **configuring service resource** and click on **Continue** **(5)**.
+6. Enter the following details **Configure service resource** and click on **Continue** **(5)**.
 
    - Subscription: Select your **Default Subscription** **(1)**.
    - Resource group: **business-process-<inject key="Deployment ID" enableCopy="false"/>** **(2)**.
