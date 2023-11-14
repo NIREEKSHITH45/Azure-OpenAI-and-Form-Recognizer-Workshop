@@ -72,7 +72,7 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
 
 In this step, you will upload 6 training documents to train the model.
 
-1. Click on **Browse for files** .
+1. Click on **Browse for files**.
 
      ![Browse for files](images/browse-for-files.png)
 
@@ -84,7 +84,7 @@ In this step, you will upload 6 training documents to train the model.
 
      ![train-upload](images/run-now.png)
 
-4. Click on **+ Add a field** **(1)**, select **Field** **(2)** , enter the field name as **Organization_sample** **(3)** and hit **enter**.
+4. Click on **+ Add a field** **(1)**, select **Field** **(2)**, enter the field name as **Organization_sample** **(3)** and hit **enter**.
 
      ![run-now](images/add-field.png)
 
@@ -98,7 +98,7 @@ In this step, you will upload 6 training documents to train the model.
 
      ![Train](images/train-module1.png)
 
-7. Specify the model ID as **customfrs** **(1)**, Model Description as **custom model** **(2)**, from the drop-down select **Template** **(3)** as Build Mode, and click on **Train** **(4)**.
+7. Specify the model ID as **customfrs** **(1)**, Model Description as **custom model** **(2)**, from the drop-down select **Template** **(3)** as Build Mode and click on **Train** **(4)**.
 
      ![Name](images/train-a-new-model.png)
 
@@ -118,7 +118,7 @@ In this step, you will upload 6 training documents to train the model.
 
      ![test-file-upload](images/test-file-upload.png)
 
-12. Once uploaded, select one test model and click on **Run analysis** **(1)**, Now you can see on the right-hand side that the model was able to detect the field **Organization_sample** **(2)** we created in the last step along with its confidence score.
+12. Once uploaded, select one test model, and click on **Run analysis** **(1)**, Now you can see on the right-hand side that the model was able to detect the field **Organization_sample** **(2)** we created in the last step along with its confidence score.
 
      ![Alt text](images/result.png)
 
@@ -162,7 +162,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
    ![Pipeline Preview](images/done-pipeline.png)
 
-10. On the **piplelines workshop** page, click on **Home**. 
+10. On the **Piplelines workshop** page, click on **Home**. 
 
       ![home-pipeline](images/home-pipeline.png)
 

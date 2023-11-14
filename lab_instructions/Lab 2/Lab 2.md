@@ -1,10 +1,10 @@
 # Use Azure OpenAI with your own data
 
 ### Overview
-In this lab, you will be using your own data with Azure OpenAI Large Language Models(LLM), which will be made searchable using Azure Cognitive Search. You will be using the Porche Owner's Manual pdf provided under the [Lab 2](/SampleInvoices/Lab%202/) folder.
+In this lab, you will be using your own data with Azure OpenAI Large Language Models (LLM), which will be made searchable using Azure Cognitive Search. You will be using the Porche Owner's Manual pdf provided under the [Lab 2](/SampleInvoices/Lab%202/) folder.
 
 ### Goal
-* How to leverage the chatGPT LLM to extract a concise summary from your own document repository using OpenAI.
+* How to leverage the ChatGPT LLM to extract a concise summary from your own document repository using OpenAI.
 
 ### Pre-requisites
 * Access to Azure OpenAI chat playground.
@@ -66,7 +66,7 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera, and C
 
    ![Save and close](images/save-and-close.png)
 
-### Task 3: Interact with Azure OpenAI chatGPT LLM using your own data
+### Task 3: Interact with Azure OpenAI ChatGPT LLM using your own data
 
 1. Under the **Assistant Setup** pane, wait until your data upload is finished.
 
