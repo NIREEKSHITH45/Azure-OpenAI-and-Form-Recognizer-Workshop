@@ -1,7 +1,7 @@
 # Create and Deploy a Form Recognizer Custom Model
 
 ### Overview
-In this lab, you will create (train) an Azure Form Recognizer custom model using a sample training dataset. Custom models extract and analyze distinct data and use cases from forms and documents specific to your business. To create a custom model, you label a dataset of documents with the values you want extracted and train the model on the labeled dataset. You only need five examples of the same form or document type to get started. For this lab, you will use the dataset provided at [Custom Model Sample Files](/SampleInvoices/Custom%20Model%20Sample/)..
+In this lab, you will create (train) an Azure Form Recognizer custom model using a sample training dataset. Custom models extract and analyze distinct data and use cases from forms and documents specific to your business. To create a custom model, you label a dataset of documents with the values you want to be extracted and train the model on the labeled dataset. You only need five examples of the same form or document type to get started. For this lab, you will use the dataset provided at [Custom Model Sample Files](/SampleInvoices/Custom%20Model%20Sample/).
 
 
 ### Goal
@@ -20,11 +20,11 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
 
 ### Task 1 - Creating a Form Recognizer Resource
 
-1. Go to the Resource group, search, and select the "**Azure AI services multi-service account**" resource type with the name similar **cogservicesbpa{suffix}**
+1. Go to the Resource group, search, and select the "**Azure AI services multi-service account**" resource type with the name similar **cogservicesbpa{suffix}**.
 
    ![Alt text](images/select-multi-service.png)
 
-2. Click on the Document Intelligence tab and select "**Go to Studio**"
+2. Click on the Document Intelligence tab and select "**Go to Studio**".
 
    ![Alt text](images/select-document-intelligence.png)
 
@@ -32,7 +32,7 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
 
    ![Alt text](images/custom-models.png)
 
-4. Under My Project click on  **+ Create a project**
+4. Under My Project click on  **+ Create a project**.
 
    ![Alt text](images/create-a-project.png)
 
@@ -64,18 +64,19 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
    
         ![storage account](images/connect-training-data-source.png)
 
-8. validate the information and choose **create project**
+8. validate the information and choose **create project**.
 
      ![Alt text](images/create-project.png)
 
 ### Task 2 - Train and Label data
+
 In this step, you will upload 6 training documents to train the model.
 
-1. Click on **Browse for files** 
+1. Click on **Browse for files** .
 
      ![Browse for files](images/browse-for-files.png)
 
-2.  On the file explorer enter the following `C:\Users\Public\Desktop\Data\Custom Model Sample` **(1)** path hit **enter**, select all train JPEG files **train1 thought train6** **(2)**, and hit **Open** **(3)**.
+2.  On the file explorer enter the following `C:\Users\Public\Desktop\Data\Custom Model Sample` **(1)** path hit **enter**, select all train JPEG files **train1 throught train6** **(2)**, and hit **Open** **(3)**.
 
      ![train-upload](images/train-upload.png)
 
@@ -179,7 +180,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
 ### Task 4 - Configure Azure Cognitive Search 
 
-1. Navigate back to the resource group window, search, and select **Search Service** with the name similar to **bpa{suffix}**
+1. Navigate back to the resource group window, search, and select **Search Service** with a name similar to **bpa{suffix}**
 
    ![search service](images/rg3.png)
 
@@ -204,7 +205,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
      ![Storage account](images/continers.png)   
   
-6. On the **Connection to your data** page, enter the **workshop** **(1)** in **Blob folder** and click on **Next : Add cognitive skills (Optional)** (2).
+6. On the **Connection to your data** page, enter the **workshop** **(1)** in **Blob folder** and click on **Next : Add cognitive skills (Optional) (2)**.
 
    ![Connection](images/connection-to-your-data-blob(1).png)
 
