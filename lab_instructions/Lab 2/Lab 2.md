@@ -1,7 +1,7 @@
 # Use Azure OpenAI with your own data
 
 ### Overview
-In this lab, you will be using your own data with Azure OpenAI Large Language Models(LLM) which will be made searchable using Azure Cognitive Search. You will be using the Porche Owner's Manual pdf provided under [Lab 2](/SampleInvoices/Lab%202/) folder.
+In this lab, you will be using your own data with Azure OpenAI Large Language Models(LLM), which will be made searchable using Azure Cognitive Search. You will be using the Porche Owner's Manual pdf provided under the [Lab 2](/SampleInvoices/Lab%202/) folder.
 
 ### Goal
 * How to leverage the chatGPT LLM to extract a concise summary from your own document repository using OpenAI.
@@ -14,11 +14,11 @@ In this lab, you will be using your own data with Azure OpenAI Large Language Mo
 
 ### Task 1: Navigate to Azure OpenAI Playground
 
-1. Navigate back to the Resource Group and select the resource group **business-process-<inject key="Deployment ID" enableCopy="false"/>**.
+1. Navigate back to the Resource groups and select the resource group **business-process-<inject key="Deployment ID" enableCopy="false"/>**.
 
    ![RG](../images/rg.png)
 
-2. On the Resource groups, search, and select the **Azure OpenAI** resource type, with the name similar **oaibpa{suffix}**.
+2. On the Resource groups, search, and select the **Azure OpenAI** resource type with the name similar to **oaibpa{suffix}**.
 
    ![OpenAI](images/openai.png)
 
@@ -32,17 +32,17 @@ In this lab, you will be using your own data with Azure OpenAI Large Language Mo
 
 ### Task 2: Upload your own data
 
-In this step, we will be using Porche's owner manual for Taycan, Panamera and Cayenne models.
+In this step, we will be using Porche's owner manual for Taycan, Panamera, and Cayenne models.
 
-1. Fill in the fallowing details in **Select or add data source** and click on **Next** **(7)**.
+1. Fill the following details in **Select or add data source** and click on **Next** **(7)**.
     
     - Select data source: **Upload files** **(1)**
 
-    - Subscription: Select your subscription from drop-down section **(2)**
+    - Subscription: Select your subscription from the drop-down section **(2)**
 
-    - Select Azure Blob storage resource: Choose the already created storage account from the dropdown **(3)**. If asked, enable CORS.
+    - Select Azure Blob storage resource: Choose the already created storage account from the drop-down **(3)**. If asked, enable CORS.
 
-    - Select Azure Cognitive Search resource: Select the search service used in the previous lab from the dropdown **(4)**.
+    - Select Azure Cognitive Search resource: Select the search service used in the previous lab from the drop-down **(4)**.
 
     - Enter the index name: Give an index name as **aoaiworkshop** **(5)**
 
@@ -50,11 +50,11 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera and Ca
 
       ![add-data](images/BPA4.png) 
 
-2. On the **Data Management**, click on **Browse for a file** **(1)** file explorer enter the following `C:\Users\Public\Desktop\Data\Lab 2` **(2)** path and hit enter, select the **Panamera-from-2021-Porsche-Connect-Good-to-know-Owner-s-Manual** **(3)** pdf  file and click on **Open** **(4)** files.
+2. On the **Data Management**, click on **Browse for a file** **(1)** enter the following `C:\Users\Public\Desktop\Data\Lab 2` **(2)** path and hit enter, select the **Panamera-from-2021-Porsche-Connect-Good-to-know-Owner-s-Manual** **(3)** pdf  file and click on **Open** **(4)** files.
 
    ![data-management](images/data-management.png)
 
-3. It will redirect to **Data Management**, click on **Upload files** **(1)**, and click on **Next** **(2)**.
+3. It will redirect to **Data management**, click on **Upload files** **(1)**, and click on **Next** **(2)**.
 
    ![data-management](images/data-management-upload.png)
 
@@ -74,7 +74,7 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera and Ca
 
    ![upload-data](images/BPA3.png)
 
-2. Under the **Chat Session** pane, you can start testing out your prompts by entering the query like.
+2. Under the **Chat Session** pane, you can start testing out your prompts by entering the query like this.
 
     ```
     how to operate Android Auto in Porche Taycan? give step-by-step instructions
@@ -82,7 +82,7 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera and Ca
 
       ![chat-session-one](images/chat-session-one.png)
 
-3. You can also configure the responses of your bot by selecting the system message under **Assistance Setup**, and click on **System message** **(1)** to replace the value under the system message with `Your name is Alice. You are an AI assistant that helps people find information about Porche cars. Your responses should not contain any harmful information`  **(2)** and click on **Save Changes** **(3)**. Here we have edited the default system message.
+3. You can also configure the responses of your bot by selecting the system message under **Assistance Setup**, and click on **System message** **(1)** to replace the value under the system message with `Your name is Alice. You are an AI assistant that helps people find information about Porche cars. Your responses should not contain any harmful information` **(2)** and click on **Save Changes** **(3)**. Here we have edited the default system message.
 
    ![assistant-setup-system-message](images/assistant-setup-system-message.png)
 
@@ -90,7 +90,7 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera and Ca
 
    ![Alt text](images/Continue.png)
 
-5. Under the **Chat Session** pane, you can start testing out your prompts by entering the query like.
+5. Under the **Chat Session** pane, you can start testing out your prompts by entering the query like this.
 
     ```
      What is your name
@@ -98,6 +98,6 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera and Ca
    
    ![chat-session-two](images/chat-session-two.png)
 
-6. In the **Configuration** pane, click on **Parameters**, you can try and experiment with different parameter configuration to see how it changes the behavior of the model
+6. In the **Configuration** pane, click on **Parameters**. You can try and experiment with different parameter configurations to see how they change the behavior of the model.
 
    ![Alt text](images/BPA2.png)
