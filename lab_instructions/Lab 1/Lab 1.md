@@ -223,17 +223,6 @@ After you are satisfied with the custom model performance, you can retrieve the 
    
    ![Create an indexer](images/create-an-indexer.png)
 
-
-### Task 5: Use Sample Search Application
-
-1. Navigate back to the **Business Process Automation Accelerator** home page and click on **Sample Search Application**.
-
-   ![Sample Search Applicationt](images/sample-search-application.png)
-
-2. On the **Sample Search Application** page, in the search bar, enter **invoice1** **(1)** and click on **Search** **(2)**.
-
-   ![output](images/output.png)
-
 ## More Resources
 
 **Getting Started with Form Recognizer Studio**: https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/form-recognizer-studio-overview?view=form-recog-3.0.0  
