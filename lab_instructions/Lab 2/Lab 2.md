@@ -100,6 +100,12 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera, and C
 
 6. In the **Configuration** pane, click on **Parameters**. You can try and experiment with different parameter configurations to see how they change the behavior of the model.
 
-   ![Alt text](images/BPA2.png)
+    ![Alt text](images/BPA2.png)
 
-   ## You have successfully completed the lab.
+## Review
+
+   In this lab, you have accomplished the following:
+   * Access to Azure OpenAI chat playground.
+   * Sample data to test with OpenAI.
+
+## You have successfully completed the lab.
