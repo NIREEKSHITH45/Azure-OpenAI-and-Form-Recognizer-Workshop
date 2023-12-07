@@ -28,9 +28,9 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
 
    ![Alt text](images/select-document-intelligence.png)
 
-3. In Document Intelligence Studio, scroll down to Custom Models and choose **Create new**.
+3. In Document Intelligence Studio, scroll down to Custom Models and choose **Try it now**.
 
-   ![Alt text](images/custom-models.png)
+   ![Alt text](images/tryitnow.png)
 
 4. Under My Project, click on **+ Create a project**.
 
@@ -126,9 +126,9 @@ In this step, you will upload 6 training documents to train the model.
 
 After you are satisfied with the custom model performance, you can retrieve the model ID and use it in a new BPA pipeline with the Custom Model module in the next step.
 
-1. Navigate back to the Resource groups and select the resource group **business-process-<inject key="Deployment ID" enableCopy="false"/>**.
+1. Navigate back to the Resource groups and select the resource group **business-process -<inject key="Deployment ID" enableCopy="false"/>**.
 
-     ![RG](../images/rg.png)
+    ![Alt text](images/rgg.png)
 
 2. Go to the Resource group, search, and select the **Static Web App** resource type with the name similar to **webappbpa{suffix}**.
 
@@ -136,7 +136,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
 3. On the **Static Web App** page, click on **View app in browser**.
 
-      ![webappbpa](images/form.png)
+      ![webappbpa](images/formm.png)
 
 4. Once the **Business Process Automation Accelerator** page loaded successfully, click on the **Create/Update/Delete Pipelines**. 
 
@@ -186,7 +186,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
 2. On the **Search service** page, click on **Import data**.
 
-   ![Data source](images/BPA1.png)
+   ![Data source](images/BPAA1.png)
 
 3. Enter the following details for **Connect to your data**.
 
@@ -222,6 +222,15 @@ After you are satisfied with the custom model performance, you can retrieve the 
 7. On the **Create an indexer** page, enter the name as **azureblob-indexer** **(1)** and click on **Submit** **(2)**.
    
    ![Create an indexer](images/create-an-indexer.png)
+
+## Review
+
+In this lab, you have accomplished the following:
+
+* Use a sample training data set to train a custom model in the Azure Form Recognizer Studio.
+* Label the training data documents with custom fields of interest.
+* Test the trained model on test data, visualized results, and confidence scores in the studio.
+* Use the custom model in the BPA pipeline.
 
 ## More Resources
 
