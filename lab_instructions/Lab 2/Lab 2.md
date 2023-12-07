@@ -102,10 +102,6 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera, and C
 
     ![Alt text](images/BPA2.png)
 
-## Review
 
-   In this lab, you have accomplished the following:
-   * Access to Azure OpenAI chat playground.
-   * Sample data to test with OpenAI.
 
 ## You have successfully completed the lab.
