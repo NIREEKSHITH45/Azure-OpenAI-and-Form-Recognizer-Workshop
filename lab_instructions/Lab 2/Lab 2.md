@@ -16,7 +16,7 @@ In this lab, you will be using your own data with Azure OpenAI Large Language Mo
 
 1. Navigate back to the Resource groups and select the resource group **business-process-<inject key="Deployment ID" enableCopy="false"/>**.
 
-   ![RG](../images/rg.png)
+  ![OpenAI](images/rgg.png)
 
 2. On the Resource group, search, and select the **Azure OpenAI** resource type with the name similar to **oaibpa{suffix}**.
 
