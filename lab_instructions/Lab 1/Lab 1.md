@@ -223,6 +223,15 @@ After you are satisfied with the custom model performance, you can retrieve the 
    
    ![Create an indexer](images/create-an-indexer.png)
 
+## Review
+
+In this lab, you have accomplished the following:
+
+* Use a sample training data set to train a custom model in the Azure Form Recognizer Studio.
+* Label the training data documents with custom fields of interest.
+* Test the trained model on test data, visualized results, and confidence scores in the studio.
+* Use the custom model in the BPA pipeline.
+
 ## More Resources
 
 **Getting Started with Form Recognizer Studio**: https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/form-recognizer-studio-overview?view=form-recog-3.0.0  
