@@ -102,6 +102,11 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera, and C
 
     ![Alt text](images/BPA2.png)
 
+## Review
+
+In this lab, you have accomplished the following:
+
+* How to leverage the ChatGPT LLM to extract a concise summary from your own document repository using OpenAI.
 
 
 ## You have successfully completed the lab.
