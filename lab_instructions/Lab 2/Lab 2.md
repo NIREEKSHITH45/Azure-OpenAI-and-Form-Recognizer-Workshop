@@ -64,7 +64,7 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera, and C
 
 5. On the **Review and finish** page, click on **Save and close**.
 
-   ![Save and close](images/save-and-close.png)
+   ![Save and close](images/addata.png)
 
 ### Task 3: Interact with Azure OpenAI ChatGPT LLM using your own data
 
@@ -80,7 +80,7 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera, and C
     how to operate Android Auto in Porche Taycan? give step-by-step instructions
     ```
 
-      ![chat-session-one](images/chat-session-one.png)
+      ![chat-session-one](images/chatsessionoutput.png)
 
 3. You can also configure the responses of your bot by selecting the system message under **Assistance Setup**, and click on **System message** **(1)** to replace the value under the system message with `Your name is Alice. You are an AI assistant that helps people find information about Porche cars. Your responses should not contain any harmful information` **(2)** and click on **Save changes** **(3)**. Here we have edited the default system message.
 
@@ -101,3 +101,5 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera, and C
 6. In the **Configuration** pane, click on **Parameters**. You can try and experiment with different parameter configurations to see how they change the behavior of the model.
 
    ![Alt text](images/BPA2.png)
+
+   ## You have successfully completed the lab.
