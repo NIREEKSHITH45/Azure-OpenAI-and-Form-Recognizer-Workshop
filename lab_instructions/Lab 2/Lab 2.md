@@ -16,7 +16,7 @@ In this lab, you will be using your own data with Azure OpenAI Large Language Mo
 
 1. Navigate back to the Resource groups and select the resource group **business-process-<inject key="Deployment ID" enableCopy="false"/>**.
 
-  ![OpenAI](images/rgg.png)
+   ![OpenAI](images/rgg.png)
 
 2. On the Resource group, search, and select the **Azure OpenAI** resource type with the name similar to **oaibpa{suffix}**.
 
@@ -56,7 +56,7 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera, and C
 
 3. It will redirect to **Data management**, click on **Upload files** **(1)**, and click on **Next** **(2)**.
 
-   ![data-management](images/data-management-upload.png)
+   ![data-management](images/newfor1.png)
 
 4. On the **Data Management** page, from the drop-down select **keyword (1)** as Search type and click on **Next (2)**.
 
@@ -80,15 +80,15 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera, and C
     how to operate Android Auto in Porche Taycan? give step-by-step instructions
     ```
 
-      ![chat-session-one](images/chatsessionoutput.png)
+      ![chat-session-one](images/newfor2.png)
 
-3. You can also configure the responses of your bot by selecting the system message under **Assistance Setup**, and click on **System message** **(1)** to replace the value under the system message with `Your name is Alice. You are an AI assistant that helps people find information about Porche cars. Your responses should not contain any harmful information` **(2)** and click on **Save changes** **(3)**. Here we have edited the default system message.
+3. You can also configure the responses of your bot by selecting the system message under **Setup**, and click on **Prompt** **(1)** to replace the value under the system message with `Your name is Alice. You are an AI assistant that helps people find information about Porche cars. Your responses should not contain any harmful information` **(2)** and click on **Apply changes** **(3)**. Here we have edited the default system message.
 
-   ![assistant-setup-system-message](images/assistant-setup-system-message.png)
+   ![assistant-setup-system-message](images/newfor3.png)
 
 4. On **Update system message?** pop-up, click on **Continue**.
 
-   ![Alt text](images/Continue.png)
+   ![Alt text](images/newfor4.png)
 
 5. Under the **Chat Session** pane, you can start testing out your prompts by entering the query like this.
 
