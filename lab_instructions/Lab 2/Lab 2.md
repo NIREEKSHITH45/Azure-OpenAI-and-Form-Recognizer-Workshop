@@ -18,7 +18,7 @@ In this lab, you will be using your own data with Azure OpenAI Large Language Mo
 
    ![OpenAI](images/rgg.png)
 
-2. On the Resource group, search, and select the **Azure OpenAI** resource type with the name similar to **oaibpa{suffix}**.
+2. On the Resource group, search, and select the **Azure OpenAI** resource type with a name similar to **oaibpa{suffix}**.
 
    ![OpenAI](images/openai.png)
 
@@ -32,7 +32,7 @@ In this lab, you will be using your own data with Azure OpenAI Large Language Mo
 
 ### Task 2: Upload your own data
 
-In this step, we will be using Porche's owner manual for Taycan, Panamera, and Cayenne models.
+In this step, we will be using Porche's owner manual for the Taycan, Panamera, and Cayenne models.
 
 1. Fill the following details in **Select or add data source** and click on **Next** **(7)**.
     
