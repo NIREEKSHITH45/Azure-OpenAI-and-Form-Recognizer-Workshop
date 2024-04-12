@@ -28,9 +28,9 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
 
    ![Alt text](images/select-document-intelligence.png)
 
-3. In Document Intelligence Studio, scroll down to Custom Models and choose **Try it now**.
+3. In Document Intelligence Studio, scroll down to Custom Models, under **Custom extraction model** choose **Get started**.
 
-   ![Alt text](images/tryitnow.png)
+   ![Alt text](images/getstarted.png)
 
 4. Under My Project, click on **+ Create a project**.
 
@@ -76,7 +76,7 @@ In this step, you will upload 6 training documents to train the model.
 
      ![Browse for files](images/browse-for-files.png)
 
-2.  On the file explorer, enter the following `C:\Users\Public\Desktop\Data\Custom Model Sample` **(1)** path hit **enter**, select all train JPEG files **train1 to train6** **(2)**, and hit **Open** **(3)**.
+2.  On the file explorer, paste the following path `C:\Users\Public\Desktop\Data\Custom Model Sample` **(1)** hit **enter**, select all train JPEG files **train1 to train6** **(2)**, and hit **Open** **(3)**.
 
      ![train-upload](images/train-upload.png)
 
@@ -114,7 +114,7 @@ In this step, you will upload 6 training documents to train the model.
 
      ![select-models](images/test-upload.png)
 
-11. On the file explorer, enter the following `C:\Users\Public\Desktop\Data\Custom Model Sample` **(1)** path hit **enter**, select all test JPEG files **test1 and test2** **(2)**, and hit **Open** **(3)**.
+11. On the file explorer, paste the following path `C:\Users\Public\Desktop\Data\Custom Model Sample` **(1)** hit **enter**, select all test JPEG files **test1 and test2** **(2)**, and hit **Open** **(3)**.
 
      ![test-file-upload](images/test-file-upload.png)
 
@@ -174,7 +174,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
       ![Upload a document](images/upload-document-to-blob.png)
 
-13. For documents, enter the following `C:\Users\Public\Desktop\Data\Lab 1 Step 3.7` **(1)** path and hit enter. You can upload multiple invoices one by one.
+13. For documents, paste the following path `C:\Users\Public\Desktop\Data\Lab 1 Step 3.7` **(1)** and hit enter. You can upload multiple invoices one by one.
 
       ![Upload a document](images/pipeline-folder.png)
 
