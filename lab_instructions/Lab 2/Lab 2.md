@@ -28,25 +28,27 @@ In this lab, you will be using your own data with Azure OpenAI Large Language Mo
 
 4. On the **Azure OpenAI Studio**, scroll down click on **Bring your own data**.
 
-   ![Azure OpenAI Studio](images/dring-your-own-data.png)
+   ![Azure OpenAI Studio](images/bringdata.png)
 
 ### Task 2: Upload your own data
 
 In this step, we will be using Porche's owner manual for Taycan, Panamera, and Cayenne models.
 
-1. Fill the following details in **Select or add data source** and click on **Next** **(7)**.
+1. Fill the following details in **Select or add data source** and click on **Next** **(6)**.
     
-    - Select data source: **Upload files** **(1)**
+    - Select data source: **Upload files (preview)** **(1)**
 
     - Subscription: Select your subscription from the drop-down section **(2)**
 
-    - Select Azure Blob storage resource: Choose the already created storage account from the drop-down **(3)**. If asked, enable CORS.
+    - Select Azure Blob storage resource: Choose the already created storage account **formrecognizer<inject key="Deployment ID">** **(3)**. 
+      
+      - **Note**: If asked for turn on CORS, click on **Turn on CORS**.
+
+         ![](images/cors.png)
 
     - Select Azure Cognitive Search resource: Select the search service used in the previous lab from the drop-down **(4)**.
 
-    - Enter the index name: Give an index name as **aoaiworkshop** **(5)**
-
-    - Check the **I acknowledge that connecting to an Azure Cognitive Search account will incur usage to my account** **(6)**.
+    - Enter the index name: Give an index name as **aoaiworkshop** **(5)**.
 
       ![add-data](images/BPA4.png) 
 
@@ -60,7 +62,7 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera, and C
 
 4. On the **Data Management** page, from the drop-down select **keyword (1)** as Search type and click on **Next (2)**.
 
-   ![keyword](images/keyword.png)
+   ![keyword](images/uploadfiles1.png)
 
 5. On the **Review and finish** page, click on **Save and close**.
 
@@ -80,15 +82,15 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera, and C
     how to operate Android Auto in Porche Taycan? give step-by-step instructions
     ```
 
-      ![chat-session-one](images/chatsessionoutput.png)
+      ![chat-session-one](images/screen.png)
 
 3. You can also configure the responses of your bot by selecting the system message under **Assistance Setup**, and click on **System message** **(1)** to replace the value under the system message with `Your name is Alice. You are an AI assistant that helps people find information about Porche cars. Your responses should not contain any harmful information` **(2)** and click on **Save changes** **(3)**. Here we have edited the default system message.
 
-   ![assistant-setup-system-message](images/assistant-setup-system-message.png)
+   ![assistant-setup-system-message](images/applychnages.png)
 
 4. On **Update system message?** pop-up, click on **Continue**.
 
-   ![Alt text](images/Continue.png)
+   ![Alt text](images/continue.png)
 
 5. Under the **Chat Session** pane, you can start testing out your prompts by entering the query like this.
 
@@ -100,7 +102,7 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera, and C
 
 6. In the **Configuration** pane, click on **Parameters**. You can try and experiment with different parameter configurations to see how they change the behavior of the model.
 
-    ![Alt text](images/BPA2.png)
+    ![Alt text](images/parameters.png)
 
 ## Review
 

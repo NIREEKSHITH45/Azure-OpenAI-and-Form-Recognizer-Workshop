@@ -193,9 +193,10 @@ After you are satisfied with the custom model performance, you can retrieve the 
    - Data Source: Select **Azure Blob Storage** **(1)**
    - Data Source Name: Enter **workshop** **(2)**.
    - Parsing mode: Select **JSON** **(3)**.
-   - Click on **Choose an existing connection** **(4)** under Connection string.
+   - Subscription: Select the default Subscription. **(4)**
+   - Click on **Choose an existing connection** **(5)** under Connection string.
   
-     ![Connection to your data](images/connection-to-your-data.png)
+     ![Connection to your data](images/fill-details.png)
 
 4. On the **Storage accounts** page, select the storage account named similar to **bpass{suffix}**. 
 
@@ -207,7 +208,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
   
 6. On the **Connect to your data** page, enter the **workshop** **(1)** as **Blob folder** and click on **Next : Add cognitive skills (Optional) (2)**.
 
-   ![Connection](images/connection-to-your-data-blob(1).png)
+   ![Connection](images/fill-details1.png)
 
 7. On the **Add cognitive skills (Optional)** click on **Skip to : Customize target index**.
 
