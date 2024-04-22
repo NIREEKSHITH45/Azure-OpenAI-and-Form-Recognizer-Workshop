@@ -50,7 +50,7 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera, and C
 
     - Enter the index name: Give an index name as **aoaiworkshop** **(5)**.
 
-      ![add-data](images/BPA4.png) 
+      ![add-data](images/uploadfiles.png) 
 
 2. On the **Data Management**, click on **Browse for a file** **(1)** enter the following `C:\Users\Public\Desktop\Data\Lab 2` **(2)** path and hit enter, select the **Panamera-from-2021-Porsche-Connect-Good-to-know-Owner-s-Manual** **(3)** pdf  file and click on **Open** **(4)** files.
 
