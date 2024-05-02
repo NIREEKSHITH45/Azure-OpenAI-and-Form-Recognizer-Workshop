@@ -82,7 +82,7 @@ In this step, we will be using Porche's owner manual for the Taycan, Panamera, a
 
       ![chat-session-one](images/newfor2.png)
 
-3. You can also configure the responses of your bot by selecting the system message under **Setup**, and click on **Prompt** **(1)** to replace the value under the system message with `Your name is Alice. You are an AI assistant that helps people find information about Porche cars. Your responses should not contain any harmful information` **(2)** and click on **Apply changes** **(3)**. Here we have edited the default system message.
+3. You can also configure the responses of your bot by selecting the system message under **Setup**, and clicking on **Prompt** **(1)** to replace the value under the system message with `Your name is Alice. You are an AI assistant that helps people find information about Porche cars. Your responses should not contain any harmful information` **(2)** and click on **Apply changes** **(3)**. Here we have edited the default system message.
 
    ![assistant-setup-system-message](images/newfor3.png)
 
@@ -107,6 +107,5 @@ In this step, we will be using Porche's owner manual for the Taycan, Panamera, a
 In this lab, you have accomplished the following:
 
 * How to leverage the ChatGPT LLM to extract a concise summary from your own document repository using OpenAI.
-
 
 ## You have successfully completed the lab.
