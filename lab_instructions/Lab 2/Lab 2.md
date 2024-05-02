@@ -28,13 +28,13 @@ In this lab, you will be using your own data with Azure OpenAI Large Language Mo
 
 4. On the **Azure OpenAI Studio**, scroll down click on **Bring your own data**.
 
-   ![Azure OpenAI Studio](images/dring-your-own-data.png)
+   ![Azure OpenAI Studio](images/02-05-2024(4).png)
 
 ### Task 2: Upload your own data
 
 In this step, we will be using Porche's owner manual for the Taycan, Panamera, and Cayenne models.
 
-1. Fill the following details in **Select or add data source** and click on **Next** **(7)**.
+1. Fill the following details in **Select or add data source** and click on **Next** **(6)**.
     
     - Select data source: **Upload files** **(1)**
 
@@ -46,9 +46,7 @@ In this step, we will be using Porche's owner manual for the Taycan, Panamera, a
 
     - Enter the index name: Give an index name as **aoaiworkshop** **(5)**
 
-    - Check the **I acknowledge that connecting to an Azure Cognitive Search account will incur usage to my account** **(6)**.
-
-      ![add-data](images/BPA4.png) 
+      ![add-data](images/02-05-2024(5).png) 
 
 2. On the **Data Management**, click on **Browse for a file** **(1)** enter the following `C:\Users\Public\Desktop\Data\Lab 2` **(2)** path and hit enter, select the **Panamera-from-2021-Porsche-Connect-Good-to-know-Owner-s-Manual** **(3)** pdf  file and click on **Open** **(4)** files.
 
@@ -56,15 +54,15 @@ In this step, we will be using Porche's owner manual for the Taycan, Panamera, a
 
 3. It will redirect to **Data management**, click on **Upload files** **(1)**, and click on **Next** **(2)**.
 
-   ![data-management](images/newfor1.png)
+   ![data-management](images/02-05-2024(6).png)
 
 4. On the **Data Management** page, from the drop-down select **keyword (1)** as Search type and click on **Next (2)**.
 
-   ![keyword](images/keyword.png)
+   ![keyword](images/02-05-2024(7).png)
 
 5. On the **Review and finish** page, click on **Save and close**.
 
-   ![Save and close](images/addata.png)
+   ![Save and close](images/02-05-2024(8).png)
 
 ### Task 3: Interact with Azure OpenAI ChatGPT LLM using your own data
 
