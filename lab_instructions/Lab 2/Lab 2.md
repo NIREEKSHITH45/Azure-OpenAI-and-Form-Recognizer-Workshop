@@ -42,7 +42,7 @@ In this step, we will be using Porche's owner manual for the Taycan, Panamera, a
 
     - Select Azure Blob storage resource: Choose the already created storage account from the drop-down **(3)**. If asked, enable CORS.
 
-    - Select Azure Cognitive Search resource: Select the search service used in the previous lab from the drop-down **(4)**.
+    - Select Azure Cognitive Search resource: Select the search service from the drop-down **(4)**.
 
     - Enter the index name: Give an index name as **aoaiworkshop** **(5)**
 
