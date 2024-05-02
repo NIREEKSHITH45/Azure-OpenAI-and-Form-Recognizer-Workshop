@@ -3,13 +3,11 @@
 ### Overview
 In this lab, you will create (train) an Azure Form Recognizer custom model using a sample training dataset. Custom models extract and analyze distinct data and use cases from forms and documents specific to your business. To create a custom model, you label a dataset of documents with the values you want to extract and train the model on the labeled dataset. You only need five examples of the same form or document type to get started. For this lab, you will use the dataset provided at [Custom Model Sample Files](/SampleInvoices/Custom%20Model%20Sample/).
 
-
 ### Goal
 * Use a sample training data set to train a custom model in the Azure Form Recognizer Studio.
 * Label the training data documents with custom fields of interest.
 * Test the trained model on test data, visualized results, and confidence scores in the studio.
 * Use the custom model in the BPA pipeline.
-
 
 ### Pre-requisites
 * The accelerator is deployed and ready in the resource group.
@@ -20,7 +18,7 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
 
 ### Task 1: Creating a Form Recognizer Resource
 
-1. Go to the Resource group, search, and select the **Azure AI services multi-service account** resource type with the name similar to **cogservicesbpa{suffix}**.
+1. Go to the Resource group, search, and select the **Azure AI services multi-service account** resource type with a name similar to **cogservicesbpa{suffix}**.
 
    ![Alt text](images/select-multi-service.png)
 
@@ -205,7 +203,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
      ![Storage account](images/continers.png)   
   
-6. On the **Connect to your data** page, enter the **workshop** **(1)** as **Blob folder** and click on **Next : Add cognitive skills (Optional) (2)**.
+6. On the **Connect to your data** page, enter the **workshop** **(1)** as **Blob folder** and click on **Next: Add cognitive skills (Optional) (2)**.
 
    ![Connection](images/connection-to-your-data-blob(1).png)
 
