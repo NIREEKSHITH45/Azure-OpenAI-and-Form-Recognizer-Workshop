@@ -22,13 +22,13 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
 
    ![Alt text](images/select-multi-service.png)
 
-2. Click on the Document Intelligence tab and select **Go to studio**.
+2. Click on the **Document Intelligence (1)** tab and select **Go to studio (2)**.
 
-   ![Alt text](images/select-document-intelligence.png)
+   ![Alt text](images/02-05-2024(1).png)
 
 3. In Document Intelligence Studio, scroll down to Custom Models and choose **Try it now**.
 
-   ![Alt text](images/tryitnow.png)
+   ![Alt text](images/02-05-2024(2).png)
 
 4. Under My Project, click on **+ Create a project**.
 
@@ -184,7 +184,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
 2. On the **Search service** page, click on **Import data**.
 
-   ![Data source](images/BPAA1.png)
+   ![Data source](images/02-05-2024(3).png)
 
 3. Enter the following details for **Connect to your data**.
 
