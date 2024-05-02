@@ -30,18 +30,20 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
 
    ![Alt text](images/02-05-2024(2).png)
 
-4. Under My Project, click on **+ Create a project**.
+   >**Note:** If a pop-up appears prompting you to sign in, please use the credentials provided on the environment details page.
+
+5. Under My Project, click on **+ Create a project**.
 
    ![Alt text](images/create-a-project.png)
 
-5. Enter the following details and click on **Continue**  **(3)**.
+6. Enter the following details and click on **Continue**  **(3)**.
     
    - Project name: **testproject** **(1)**.
    - Description: **Custom model project** **(2)**.
 
      ![Alt text](images/enter-project-details.png)
 
-6. Enter the following details **Configure service resource** and click on **Continue** **(5)**.
+7. Enter the following details **Configure service resource** and click on **Continue** **(5)**.
 
    - Subscription: Select your **Default Subscription** **(1)**.
    - Resource group: **business-process-<inject key="Deployment ID" enableCopy="false"/>** **(2)**.
@@ -50,7 +52,7 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
 
      ![configuring service resource](images/configure-service-resource.png)
 
-7. Enter the following details **Connect training data source** and click on **Continue** **(8)**.
+8. Enter the following details **Connect training data source** and click on **Continue** **(8)**.
 
    - Subscription: Select your **Default Subscription** **(1)**.
    - Resource group: **business-process-<inject key="Deployment ID" enableCopy="false"/>** **(2)**.
@@ -62,7 +64,7 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
    
         ![storage account](images/connect-training-data-source.png)
 
-8. Validate the information and choose **Create project**.
+9. Validate the information and choose **Create project**.
 
      ![Alt text](images/create-project.png)
 
