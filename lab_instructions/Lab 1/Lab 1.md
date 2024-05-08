@@ -118,7 +118,7 @@ In this step, you will upload 6 training documents to train the model.
 
      ![test-file-upload](images/test-file-upload.png)
 
-12. Once uploaded, select one test model, and click on **Run analysis** **(1)**, Now you can see on the right-hand side that the model was able to detect the field **Organization_sample** **(2)** we created in the last step along with its confidence score.
+12. Once uploaded, select test2.jpeg model, and click on **Run analysis** **(1)**, Now you can see on the right-hand side that the model was able to detect the field **Organization_sample** **(2)** we created in the last step along with its confidence score.
 
      ![Alt text](images/result.png)
 
