@@ -172,7 +172,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
 12. On the **Upload a document to Blob Storage** page, from the drop-down select a Pipeline with the name **workshop** **(1)**, and click on **Upload or drop a file right here**.
 
-      ![Upload a document](images/upload-document-to-blob.png)
+      ![Upload a document](images/recogniserlab1-1.png)
 
 13. For documents, paste the following path `C:\Users\Public\Desktop\Data\Lab 1 Step 3.7` **(1)** and hit enter. You can upload multiple invoices one by one.
 
