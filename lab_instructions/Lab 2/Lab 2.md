@@ -98,7 +98,7 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera, and C
      What is your name
     ```
    
-   ![chat-session-two](images/chat-session-two.png)
+   ![chat-session-two](images/recogniserlab1-2.png)
 
 6. In the **Configuration** pane, click on **Parameters**. You can try and experiment with different parameter configurations to see how they change the behavior of the model.
 
