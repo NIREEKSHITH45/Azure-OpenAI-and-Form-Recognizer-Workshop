@@ -18,13 +18,13 @@ In this lab, you will be using your own data with Azure OpenAI Large Language Mo
 
    ![OpenAI](images/rgg.png)
 
-2. On the Resource group, search, and select the **Azure OpenAI** resource type with a name similar to **oaibpa{suffix}**.
+2. On the Resource group, search, and select the **Azure OpenAI** resource type with a name similar to **Copilot-OpenAI-<inject key="Deployment ID" enableCopy="false"/>**.
 
-   ![OpenAI](images/openai.png)
+   ![OpenAI](images/select-openai.png)
 
 3. On the **Azure OpenAI** page, click on **Go to Azure OpenAI Studio**.
 
-   ![OpenAI Studio](images/OpenAI-Studio.png)
+   ![OpenAI Studio](images/select-openai-stuido.png)
 
 4. On the **Azure OpenAI Studio**, scroll down click on **Bring your own data**.
 
@@ -36,17 +36,17 @@ In this step, we will be using Porche's owner manual for the Taycan, Panamera, a
 
 1. Fill the following details in **Select or add data source** and click on **Next** **(6)**.
     
-    - Select data source: **Upload files** **(1)**
+    - Select data source: **Upload files (preview)** **(1)**
 
     - Subscription: Select your subscription from the drop-down section **(2)**
 
-    - Select Azure Blob storage resource: Choose the already created storage account from the drop-down **(3)**. If asked, enable CORS.
+    - Select Azure Blob storage resource: Choose the already created storage account from the drop-down **copilotstorage<inject key="Deployment ID" enableCopy="false"/>** **(3)**. If asked, enable CORS.
 
-    - Select Azure Cognitive Search resource: Select the search service from the drop-down **(4)**.
+    - Select Azure Cognitive Search resource: Select the search service from the drop-down **acs-<inject key="Deployment ID" enableCopy="false"/>** **(4)**.
 
     - Enter the index name: Give an index name as **aoaiworkshop** **(5)**
 
-      ![add-data](images/02-05-2024(5).png) 
+      ![add-data](images/bring-your-owndata-datasource.png) 
 
 2. On the **Data Management**, click on **Browse for a file** **(1)** enter the following `C:\Users\Public\Desktop\Data\Lab 2` **(2)** path and hit enter, select the **Panamera-from-2021-Porsche-Connect-Good-to-know-Owner-s-Manual** **(3)** pdf  file and click on **Open** **(4)** files.
 
@@ -54,15 +54,19 @@ In this step, we will be using Porche's owner manual for the Taycan, Panamera, a
 
 3. It will redirect to **Data management**, click on **Upload files** **(1)**, and click on **Next** **(2)**.
 
-   ![data-management](images/02-05-2024(6).png)
+   ![data-management](images/bring-your-owndata-upload.png)
 
 4. On the **Data Management** page, from the drop-down select **keyword (1)** as Search type and click on **Next (2)**.
 
-   ![keyword](images/02-05-2024(7).png)
+   ![keyword](images/bring-your-owndata-datamanagment.png)
 
-5. On the **Review and finish** page, click on **Save and close**.
+5. In the **Data connection** page, select **API** **(1)** and click on **Next (2)**.
 
-   ![Save and close](images/02-05-2024(8).png)
+   ![Data-Connection](images/bring-your-owndata-dataconnection.png)
+
+6. On the **Review and finish** page, click on **Save and close**.
+
+   ![Save and close](images/bring-your-owndata-save.png)
 
 ### Task 3: Interact with Azure OpenAI ChatGPT LLM using your own data
 
