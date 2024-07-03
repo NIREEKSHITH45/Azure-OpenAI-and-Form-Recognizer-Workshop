@@ -60,7 +60,7 @@ In this step, we will be using Porche's owner manual for the Taycan, Panamera, a
 
    ![keyword](images/bring-your-owndata-datamanagment.png)
 
-5. In the **Data connection** page, select **API** **(1)** and click on **Next (2)**.
+5. In the **Data connection** page, select **API Key** **(1)** and click on **Next (2)**.
 
    ![Data-Connection](images/bring-your-owndata-dataconnection.png)
 
