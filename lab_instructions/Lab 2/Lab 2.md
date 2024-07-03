@@ -18,13 +18,13 @@ In this lab, you will be using your own data with Azure OpenAI Large Language Mo
 
    ![OpenAI](images/rgg.png)
 
-2. On the Resource group, search, and select the **Azure OpenAI** resource type with a name similar to **Copilot-OpenAI-<inject key="Deployment ID" enableCopy="false"/>**.
+2. On the Resource group, search, and select the **Azure OpenAI (1)** resource type with a name similar to **Copilot-OpenAI-<inject key="Deployment ID" enableCopy="false"/> (2)**.
 
-   ![OpenAI](images/select-openai.png)
+   ![OpenAI](images/03-07-2024.png)
 
 3. On the **Azure OpenAI** page, click on **Go to Azure OpenAI Studio**.
 
-   ![OpenAI Studio](images/select-openai-stuido.png)
+   ![OpenAI Studio](images/03-07-2024(1).png)
 
 4. On the **Azure OpenAI Studio**, scroll down click on **Bring your own data**.
 
