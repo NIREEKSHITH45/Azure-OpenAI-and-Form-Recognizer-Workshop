@@ -64,9 +64,14 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera, and C
 
    ![keyword](images/uploadfiles1.png)
 
-5. On the **Review and finish** page, click on **Save and close**.
+5. On the **Data Connection** page, Under Azure resorce authentication type, select **API Key**.
 
-   ![Save and close](images/addata.png)
+   <img width="539" alt="image" src="https://github.com/user-attachments/assets/34f72831-1a33-47c8-9d8f-5200b51be35d">
+
+6.  On the **Review and finish** page, click on **Save and close**.
+
+   ![image](https://github.com/user-attachments/assets/57bfec0e-a3e6-4791-af51-cceb44003c51)
+
 
 ### Task 3: Interact with Azure OpenAI ChatGPT LLM using your own data
 
@@ -103,6 +108,10 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera, and C
 6. In the **Configuration** pane, click on **Parameters**. You can try and experiment with different parameter configurations to see how they change the behavior of the model.
 
     ![Alt text](images/parameters.png)
+
+**Note**-If you didn't find **Configuration** click on **show panels** on top right corner.and Make sure check in the **setup** and **parameter** and **save** it.
+
+   ![image](https://github.com/user-attachments/assets/4a9ca595-f5b4-46c2-9412-53af9bdc30ce)
 
 ## Review
 
