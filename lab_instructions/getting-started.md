@@ -30,7 +30,7 @@
 
 1. If **Action required** pop-up window appears, click on **Ask later**.
 
-   ![](images/ask-later-01.png)
+   ![](images/ask-later-01.png "Ask Later")
 
 1. If you see the pop-up **Stay Signed in?**, select **No**.
 
