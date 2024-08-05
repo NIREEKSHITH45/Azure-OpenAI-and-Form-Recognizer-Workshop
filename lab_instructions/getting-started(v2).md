@@ -8,25 +8,43 @@ In this lab, you will gain a comprehensive understanding of Azure's advanced dat
 
 ## **Objective**
 
-•**Creating a Form Recognizer Resource**: This hands-on exercise aims to create a Form Recognizer resource in Azure, ensuring that you have the necessary setup to build and train custom models for data extraction from forms and documents.
-•**Train and Label Data**:This hands-on exercise focuses on training and labeling a dataset to create a custom model with Azure Form Recognizer, enabling the extraction of specific data points from business forms and documents.
-•**Build a New Pipeline with the Custom Model Module in BPA**: This hands-on exercise aims to build a new pipeline using the custom model module in Business Process Automation (BPA), facilitating streamlined processing and analysis of form data within your business workflows.
-•**Configure Azure Cognitive Search**: This hands-on exercise aims to configure Azure Cognitive Search, making your data searchable and enhancing the retrieval capabilities for more efficient and effective data utilization.
-•**Navigate to Azure OpenAI Playground**: This hands-on exercise provides an overview of navigating the Azure OpenAI Playground, familiarizing you with its features and functionalities to experiment with and utilize OpenAI's capabilities.
-•**Upload Your Own Data and Interact with Azure OpenAI ChatGPT LLM Using Your Own Data**: This hands-on exercise aims to upload your own data to Azure OpenAI and interact with the ChatGPT LLM, demonstrating how to leverage your data for advanced language model applications to enhance business insights and operations.
+**Creating a Form Recognizer Resource**: This hands-on exercise aims to create a Form Recognizer resource in Azure, ensuring that you have the necessary setup to build and train custom models for data extraction from forms and documents.
+
+**Train and Label Data**:This hands-on exercise focuses on training and labeling a dataset to create a custom model with Azure Form Recognizer, enabling the extraction of specific data points from business forms and documents.
+
+**Build a New Pipeline with the Custom Model Module in BPA**: This hands-on exercise aims to build a new pipeline using the custom model module in Business Process Automation (BPA), facilitating streamlined processing and analysis of form data within your business workflows.
+
+**Configure Azure Cognitive Search**: This hands-on exercise aims to configure Azure Cognitive Search, making your data searchable and enhancing the retrieval capabilities for more efficient and effective data utilization.
+
+**Navigate to Azure OpenAI Playground**: This hands-on exercise provides an overview of navigating the Azure OpenAI Playground, familiarizing you with its features and functionalities to experiment with and utilize OpenAI's capabilities.
+
+**Upload Your Own Data and Interact with Azure OpenAI ChatGPT LLM Using Your Own Data**: This hands-on exercise aims to upload your own data to Azure OpenAI and interact with the ChatGPT LLM, demonstrating how to leverage your data for advanced language model applications to enhance business insights and operations.
 
 ## **Pre-requisites**
 
-Here’s the revised list of prerequisites:
+### **Azure AI Services**: 
+Familiarity with Azure’s suite of AI tools, including Form Recognizer and Cognitive Search.
 
-• **Azure AI Services**: Familiarity with Azure’s suite of AI tools, including Form Recognizer and Cognitive Search.
-• **Basic Knowledge of Data Extraction and Analysis**: Understanding of techniques for extracting and analyzing data from forms and documents.
-• **Azure Cognitive Search**: Knowledge of configuring and using Azure Cognitive Search for data retrieval.
-• **Building and Training Custom Models**: Hands-on experience with creating and training custom models, particularly in Azure Form Recognizer.
-• **Business Process Automation (BPA)**: Basic knowledge of BPA and how to build and manage data processing pipelines.
-• **Basic Programming Skills**: Proficiency in programming languages relevant to Azure integrations, such as Python, C#, or JavaScript.
-• **Azure OpenAI**: Knowledge of how to interact with and utilize Azure OpenAI’s language models and playground.
-• **Data Preparation Skills**: Ability to prepare and manage datasets for training and interacting with AI models.
+### **Basic Knowledge of Data Extraction and Analysis**: 
+Understanding of techniques for extracting and analyzing data from forms and documents.
+
+### **Azure Cognitive Search**: 
+Knowledge of configuring and using Azure Cognitive Search for data retrieval.
+
+### **Building and Training Custom Models**: 
+Hands-on experience with creating and training custom models, particularly in Azure Form Recognizer.
+
+### **Business Process Automation (BPA)**: 
+Basic knowledge of BPA and how to build and manage data processing pipelines.
+
+### **Basic Programming Skills**: 
+Proficiency in programming languages relevant to Azure integrations, such as Python, C#, or JavaScript.
+
+### **Azure OpenAI**: 
+Knowledge of how to interact with and utilize Azure OpenAI’s language models and playground.
+
+### **Data Preparation Skills**: 
+Ability to prepare and manage datasets for training and interacting with AI models.
 
  
 ## **Accessing Your Lab Environment**
