@@ -19,7 +19,29 @@ In this lab, you will gain a comprehensive understanding of Azure's advanced dat
 
 ## Architecture
 
-In this lab, you'll first create custom models with Azure Form Recognizer, focusing on extracting and analyzing specific data from business forms and documents. Next, you will leverage Azure's advanced data handling tools by using Azure OpenAI Large Language Models (LLM) in conjunction with Azure Cognitive Search to make your data searchable and accessible. The architecture flow integrates these components to build intelligent systems that enhance productivity and deliver personalized experiences, demonstrating the powerful capabilities of Azure's AI and data analysis technologies tailored to your business needs.
+In this lab, you'll first create custom models with Document Intelligence, focusing on extracting and analyzing specific data from business forms and documents. Next, you will leverage Azure's advanced data handling tools by using Azure OpenAI Large Language Models (LLM) in conjunction with Azure AI Search to make your data searchable and accessible. The architecture flow integrates these components to build intelligent systems that enhance productivity and deliver personalized experiences, demonstrating the powerful capabilities of Azure's AI and data analysis technologies tailored to your business needs.
+
+## Architecture Diagram
+
+ ![](images/ArchD.png)
+
+### Explanation of Components
+
+**Ingest**: This stage involves collecting various types of data, such as text, audio, images, and video. These data types are the raw inputs that need to be processed and analyzed.
+
+**Storage**: The collected data is stored in a scalable storage solution. This component ensures that the ingested data is securely saved and can be accessed by other services when needed.
+
+**Trigger**: This component monitors the storage and triggers actions when new data is available. It uses a message queue to manage the data processing workflow efficiently.
+
+**Pipeline Executor**: The pipeline executor, often powered by Azure Functions, runs the necessary code in response to the trigger events. It processes the data and passes it to the cognitive services for further analysis.
+
+**Cognitive Services**: This stage involves multiple cognitive services, which can include natural language processing, image recognition, and other AI-powered features. These services analyze the data and extract meaningful insights.
+
+**Storage**: After processing, the data and extracted insights are stored again. This ensures that the results of the cognitive services are saved for later use, such as visualization or further analysis.
+
+**Visualize**: The final component involves visualizing the processed data and insights. Users can view real-time outputs or interact with the data through a chatbot UI or other visualization tools.
+
+This architecture flow demonstrates how various Azure components work together to handle, process, analyze, and visualize data, providing a comprehensive and intelligent system tailored to business needs.
 
 ## **Getting Started with the Lab**
  
