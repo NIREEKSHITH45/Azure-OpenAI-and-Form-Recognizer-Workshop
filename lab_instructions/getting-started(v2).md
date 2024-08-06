@@ -1,4 +1,4 @@
-# Getting Started with Your Azure-OpenAI-and-Form-Recognizer-Workshop Workshop
+# Azure OpenAI and Form Recognizer BPA accelerator to improve Document Analysis
  
 ## Overall Estimated Duration: 2 Hours
 
@@ -23,7 +23,7 @@ In this lab, you'll first create custom models with Document Intelligence, focus
 
 ## Architecture Diagram
 
- ![](images/ArchD.png)
+ ![](../images/ArchDimage.png)
 
 ### Explanation of Components
 
@@ -47,7 +47,7 @@ This architecture flow demonstrates how various Azure components work together t
  
 1. After the environment has been set up, your browser will load a virtual machine (JumpVM), use this virtual machine throughout the workshop to perform the lab. You can see the number on the bottom of the lab guide to switch to different exercises in the lab guide.
 
-   ![](images/Intro.png)
+   ![](../images/Intro.png)
  
 2. To get the lab environment details, you can select the Environment tab. Additionally, the credentials will also be emailed to your registered email address. You can also open the Lab Guide in a separate and full window by selecting the Split Window from the lower right corner. Also, you can start, stop, and restart virtual machines from the Resources tab.
  
@@ -101,6 +101,22 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
    ![](images/resources.png "Resource groups")
    
-1. Now, click on **Next** from the lower right corner to move on to the next page.
+> [!IMPORTANT]
+*For a smoother experience during the hands-on lab, it's important to thoroughly review both the instructions and the accompanying notes. This will help you navigate through the tasks with ease and confidence.*
+
+This hands-on lab will guide you in using Azure’s advanced tools, including OpenAI LLM, Cognitive Search, and Form Recognizer, to create intelligent systems that enhance productivity and deliver personalized experiences.
+
+## Support Contact
+
+The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
+
+Learner Support Contacts:
+
+- Email Support: labs-support@spektrasystems.com
+- Live Chat Support: https://cloudlabs.ai/labs-support
+  
+Now, click on Next from the lower right corner to move on to the next page.
+
+## Happy Learning!!
  
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
