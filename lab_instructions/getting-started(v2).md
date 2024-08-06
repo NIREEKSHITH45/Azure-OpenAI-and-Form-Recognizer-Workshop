@@ -4,11 +4,11 @@
 
 ## Overview
 
-In this lab, you will gain a comprehensive understanding of Azure's advanced data handling and analysis tools. You'll explore how to utilize Azure OpenAI Large Language Models (LLM) and Azure Cognitive Search to make your data searchable. Additionally, you'll delve into creating custom models with Azure Form Recognizer, learning how to extract and analyze specific data from business forms and documents. This lab will showcase the potential of these technologies to build intelligent systems tailored to your business needs, enhancing productivity and delivering hyper-personalized experiences.
+In this lab, you will gain a comprehensive understanding of Azure's advanced data handling and analysis tools. You'll explore how to utilize Azure OpenAI Large Language Models (LLM) and Azure AI Search to make your data searchable. Additionally, you'll delve into creating custom models with Azure Form Recognizer, learning how to extract and analyze specific data from business forms and documents. This lab will showcase the potential of these technologies to build intelligent systems tailored to your business needs, enhancing productivity and delivering hyper-personalized experiences.
 
 ## Objective
 
-- **Create and Deploy a Form Recognizer Custom Model**: This hands on lab aims to create a Form Recognizer resource, train data, build a custom model pipeline in BPA, and configure Azure Cognitive Search which will streamline document data extraction and enhance efficient information retrieval. 
+- **Create and Deploy a Form Recognizer Custom Model**: This hands on lab aims to create a Form Recognizer resource, train data, build a custom model pipeline in BPA, and configure Azure AI Search which will streamline document data extraction and enhance efficient information retrieval. 
 
 - **Use Azure OpenAI with your own data**: This hands-on lab will guide you through navigating the Azure OpenAI Playground, uploading your own data, and interacting with ChatGPT LLM to customize responses and gain insights from your data.
 
@@ -23,7 +23,7 @@ In this lab, you'll first create custom models with Document Intelligence, focus
 
 ## Architecture Diagram
 
- ![](../images/ArchDimage.png)
+ ![](../images/ArchDia.png)
 
 ### Explanation of Components
 
@@ -35,7 +35,7 @@ In this lab, you'll first create custom models with Document Intelligence, focus
 
 **Pipeline Executor**: The pipeline executor, often powered by Azure Functions, runs the necessary code in response to the trigger events. It processes the data and passes it to the cognitive services for further analysis.
 
-**Cognitive Services**: This stage involves multiple cognitive services, which can include natural language processing, image recognition, and other AI-powered features. These services analyze the data and extract meaningful insights.
+**Azure AI Services**: This stage involves multiple cognitive services, which can include natural language processing, image recognition, and other AI-powered features. These services analyze the data and extract meaningful insights.
 
 **Storage**: After processing, the data and extracted insights are stored again. This ensures that the results of the cognitive services are saved for later use, such as visualization or further analysis.
 
@@ -104,7 +104,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 > [!IMPORTANT]
 *For a smoother experience during the hands-on lab, it's important to thoroughly review both the instructions and the accompanying notes. This will help you navigate through the tasks with ease and confidence.*
 
-This hands-on lab will guide you in using Azure’s advanced tools, including OpenAI LLM, Cognitive Search, and Form Recognizer, to create intelligent systems that enhance productivity and deliver personalized experiences.
+This hands-on lab will guide you in using Azure’s advanced tools, including OpenAI LLM, Azure AI Search, and Form Recognizer, to create intelligent systems that enhance productivity and deliver personalized experiences.
 
 ## Support Contact
 
