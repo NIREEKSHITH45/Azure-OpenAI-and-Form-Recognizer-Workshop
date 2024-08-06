@@ -23,7 +23,7 @@ In this lab, you'll first create custom models with Document Intelligence, focus
 
 ## Architecture Diagram
 
- ![](images/ArchD.png)
+ ![](../images/ArchDimage.png)
 
 ### Explanation of Components
 
