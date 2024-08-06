@@ -1,79 +1,47 @@
-# **Getting Started with Your Azure-OpenAI-and-Form-Recognizer-Workshop Workshop**
+# Getting Started with Your Azure-OpenAI-and-Form-Recognizer-Workshop Workshop
  
-## **Overall Estimated Duration: 2 Hours**
+## Overall Estimated Duration: 2 Hours
 
-## **Overview**
+## Overview
 
 In this lab, you will gain a comprehensive understanding of Azure's advanced data handling and analysis tools. You'll explore how to utilize Azure OpenAI Large Language Models (LLM) and Azure Cognitive Search to make your data searchable. Additionally, you'll delve into creating custom models with Azure Form Recognizer, learning how to extract and analyze specific data from business forms and documents. This lab will showcase the potential of these technologies to build intelligent systems tailored to your business needs, enhancing productivity and delivering hyper-personalized experiences.
 
-## **Objective**
+## Objective
 
-**Creating a Form Recognizer Resource**: This hands-on exercise aims to create a Form Recognizer resource in Azure, ensuring that you have the necessary setup to build and train custom models for data extraction from forms and documents.
+- **Create and Deploy a Form Recognizer Custom Model**: This hands on lab aims to create a Form Recognizer resource, train data, build a custom model pipeline in BPA, and configure Azure Cognitive Search which will streamline document data extraction and enhance efficient information retrieval. 
 
-**Train and Label Data**:This hands-on exercise focuses on training and labeling a dataset to create a custom model with Azure Form Recognizer, enabling the extraction of specific data points from business forms and documents.
+- **Use Azure OpenAI with your own data**: This hands-on lab will guide you through navigating the Azure OpenAI Playground, uploading your own data, and interacting with ChatGPT LLM to customize responses and gain insights from your data.
 
-**Build a New Pipeline with the Custom Model Module in BPA**: This hands-on exercise aims to build a new pipeline using the custom model module in Business Process Automation (BPA), facilitating streamlined processing and analysis of form data within your business workflows.
+## Pre-requisites
 
-**Configure Azure Cognitive Search**: This hands-on exercise aims to configure Azure Cognitive Search, making your data searchable and enhancing the retrieval capabilities for more efficient and effective data utilization.
+- Familiarity with Azure’s suite of AI tools.
+- Basic knowledge of BPA and how to build and manage data processing pipelines.
 
-**Navigate to Azure OpenAI Playground**: This hands-on exercise provides an overview of navigating the Azure OpenAI Playground, familiarizing you with its features and functionalities to experiment with and utilize OpenAI's capabilities.
+## Architecture
 
-**Upload Your Own Data and Interact with Azure OpenAI ChatGPT LLM Using Your Own Data**: This hands-on exercise aims to upload your own data to Azure OpenAI and interact with the ChatGPT LLM, demonstrating how to leverage your data for advanced language model applications to enhance business insights and operations.
+In this lab, you'll first create custom models with Azure Form Recognizer, focusing on extracting and analyzing specific data from business forms and documents. Next, you will leverage Azure's advanced data handling tools by using Azure OpenAI Large Language Models (LLM) in conjunction with Azure Cognitive Search to make your data searchable and accessible. The architecture flow integrates these components to build intelligent systems that enhance productivity and deliver personalized experiences, demonstrating the powerful capabilities of Azure's AI and data analysis technologies tailored to your business needs.
 
-## **Pre-requisites**
-
-### **Azure AI Services**: 
-Familiarity with Azure’s suite of AI tools, including Form Recognizer and Cognitive Search.
-
-### **Basic Knowledge of Data Extraction and Analysis**: 
-Understanding of techniques for extracting and analyzing data from forms and documents.
-
-### **Azure Cognitive Search**: 
-Knowledge of configuring and using Azure Cognitive Search for data retrieval.
-
-### **Building and Training Custom Models**: 
-Hands-on experience with creating and training custom models, particularly in Azure Form Recognizer.
-
-### **Business Process Automation (BPA)**: 
-Basic knowledge of BPA and how to build and manage data processing pipelines.
-
-### **Basic Programming Skills**: 
-Proficiency in programming languages relevant to Azure integrations, such as Python, C#, or JavaScript.
-
-### **Azure OpenAI**: 
-Knowledge of how to interact with and utilize Azure OpenAI’s language models and playground.
-
-### **Data Preparation Skills**: 
-Ability to prepare and manage datasets for training and interacting with AI models.
-
+## **Getting Started with the Lab**
  
-## **Accessing Your Lab Environment**
- 
-Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
+1. After the environment has been set up, your browser will load a virtual machine (JumpVM), use this virtual machine throughout the workshop to perform the lab. You can see the number on the bottom of the lab guide to switch to different exercises in the lab guide.
 
-  ![](images/form(1).png)
-
-### **Virtual Machine & Lab Guide**
+   ![](images/Intro.png)
  
-Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
+2. To get the lab environment details, you can select the Environment tab. Additionally, the credentials will also be emailed to your registered email address. You can also open the Lab Guide in a separate and full window by selecting the Split Window from the lower right corner. Also, you can start, stop, and restart virtual machines from the Resources tab.
  
-## **Exploring Your Lab Resources**
- 
-To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
- 
-  ![](images/miw(3).png)
+   ![](images/miw(3).png)
  
 ## **Utilizing the Split Window Feature**
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
-  ![](images/POWER(1).png)
+   ![](images/POWER(1).png)
  
 ## **Managing Your Virtual Machine**
  
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
 
-  ![](images/res.png)
+   ![](images/res.png)
  
 ## **Let's Get Started with Azure Portal**
  
