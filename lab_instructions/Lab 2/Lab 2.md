@@ -111,13 +111,21 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera, and C
 
 **Note**-If you didn't find **Configuration** click on **show panels** on top right corner.and Make sure check in the **setup** and **parameter** and **save** it.
 
-   ![image](https://github.com/user-attachments/assets/4a9ca595-f5b4-46c2-9412-53af9bdc30ce)
+    ![image](https://github.com/user-attachments/assets/4a9ca595-f5b4-46c2-9412-53af9bdc30ce)
 
-## Review
+> [!IMPORTANT]
+*For a smoother experience during the hands-on lab, it's important to thoroughly review both the instructions and the accompanying notes. This will help you navigate through the tasks with ease and confidence.*
 
-In this lab, you have accomplished the following:
+This hands-on lab will guide you in using Azure’s advanced tools, including OpenAI LLM, Cognitive Search, and Form Recognizer, to create intelligent systems that enhance productivity and deliver personalized experiences.
 
-* How to leverage the ChatGPT LLM to extract a concise summary from your own document repository using OpenAI.
+## Support Contact
 
+The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
 
-## You have successfully completed the lab.
+Learner Support Contacts:
+
+- Email Support: labs-support@spektrasystems.com
+- Live Chat Support: https://cloudlabs.ai/labs-support
+- Now, click on Next from the lower right corner to move on to the next page.
+
+## Happy Learning!!
