@@ -4,7 +4,7 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
 
 ## Lab Objectives
 
-Understand how to create and deploy a Form Recognizer custom model in Azure, train data, and configure Azure AI Search. Gain skills in building custom model pipelines and streamlining document data extraction. By the end of this lab, you will be able to:
+In this lab, you will complete the following tasks:
 
 * Task 1: Creating a Form Recognizer Resource
 * Task 2: Train and Label data
