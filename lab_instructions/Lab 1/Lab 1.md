@@ -4,6 +4,8 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
 
 ## Lab Objectives
 
+In this lab, you will complete the following tasks:
+
 * Task 1: Creating a Form Recognizer Resource
 * Task 2: Train and Label data
 * Task 3: Build a new pipeline with the custom model module in BPA
@@ -221,7 +223,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
 ## Summary
 
-In this hands-on lab, you will create a custom model with Azure Form Recognizer using a sample training dataset. This involves labeling documents to extract specific data and training the model with just five examples of each form type.
+In this hands-on lab, you will create a custom model with Azure Form Recognizer using a sample training dataset.
 
 ## More Resources
 
