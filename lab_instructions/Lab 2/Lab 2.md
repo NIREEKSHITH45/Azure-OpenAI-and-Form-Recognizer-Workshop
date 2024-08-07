@@ -1,14 +1,11 @@
-# Use Azure OpenAI with your own data
+# Lab 2  Use Azure OpenAI with your own data
 
-### Overview
 In this lab, you will be using your own data with Azure OpenAI Large Language Models (LLM), which will be made searchable using Azure Cognitive Search. You will be using the Porche Owner's Manual pdf provided under the [Lab 2](/SampleInvoices/Lab%202/) folder.
 
-### Goal
-* How to leverage the ChatGPT LLM to extract a concise summary from your own document repository using OpenAI.
-
-### Pre-requisites
-* Access to Azure OpenAI chat playground.
-* Sample data to test with OpenAI.
+### Lab Objectives
+* Task 1: Navigate to Azure OpenAI Playground
+* Task 2: Upload your own data
+* Task 3: Interact with Azure OpenAI ChatGPT LLM using your own data
 
 ### Instructions
 

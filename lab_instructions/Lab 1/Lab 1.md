@@ -1,20 +1,13 @@
 # Create and Deploy a Form Recognizer Custom Model
 
-### Overview
 In this lab, you will create (train) an Azure Form Recognizer custom model using a sample training dataset. Custom models extract and analyze distinct data and use cases from forms and documents specific to your business. To create a custom model, you label a dataset of documents with the values you want to extract and train the model on the labeled dataset. You only need five examples of the same form or document type to get started. For this lab, you will use the dataset provided at [Custom Model Sample Files](/SampleInvoices/Custom%20Model%20Sample/).
 
+## Lab Objectives
 
-### Goal
-* Use a sample training data set to train a custom model in the Azure Form Recognizer Studio.
-* Label the training data documents with custom fields of interest.
-* Test the trained model on test data, visualized results, and confidence scores in the studio.
-* Use the custom model in the BPA pipeline.
-
-
-### Pre-requisites
-* The accelerator is deployed and ready in the resource group.
-* You have an Azure subscription and permission to create a Form Recognizer Resource.
-* You have access to the sample invoices folder with the invoices to upload.
+* Task 1: Creating a Form Recognizer Resource
+* Task 2: Train and Label data
+* Task 3: Build a new pipeline with the custom model module in BPA
+* Task 4: Configure Azure Cognitive Search 
 
 ### Instructions
 
