@@ -10,9 +10,9 @@ In this lab, you will gain a comprehensive understanding of Azure's advanced dat
 
 Understand how to create and deploy a Form Recognizer custom model in Azure, train data, and configure Azure AI Search. Gain skills in building custom model pipelines and streamlining document data extraction. By the end of this lab, you will be able to:
 
-- **Create and Deploy a Form Recognizer Custom Model**: This hands on lab aims to create a Form Recognizer resource, train data, build a custom model pipeline in BPA, and configure Azure AI Search which will streamline document data extraction and enhance efficient information retrieval. 
+- **Create and Deploy a Form Recognizer Custom Model**: Understand how to streamline document data extraction and enhance efficient information retrieval by creating a Form Recognizer resource, training data, building a custom model pipeline in BPA, and configuring Azure AI Search. 
 
-- **Use Azure OpenAI with your own data**: This hands-on lab will guide you through navigating the Azure OpenAI Playground, uploading your own data, and interacting with ChatGPT LLM to customize responses and gain insights from your data.
+- **Use Azure OpenAI with your own data**: Understand how to navigate the Azure OpenAI Playground, upload your own data, and interact with ChatGPT LLM to customize responses and gain insights from your data.
 
 ## Pre-requisites
 
