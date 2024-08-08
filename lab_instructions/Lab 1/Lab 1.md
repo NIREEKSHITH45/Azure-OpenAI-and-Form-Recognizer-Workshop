@@ -47,7 +47,7 @@ In this lab, you will complete the following tasks:
    - Document Intelligence or Cognitive Service Resource: Select the available Azure AI Search (Cognitive Service) **cogservicesbpass{suffix}** **(3)**.
    - API version: **2022-08-31 (3.0 General Availability)** **(4)**.
 
-        ![storage account](images/Formai.png)
+        ![storage account](images/Formai1.png)
 
 8. Enter the following details **Connect training data source** and click on **Continue** **(8)**.
 
