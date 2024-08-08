@@ -1,6 +1,6 @@
 # Lab 2  Use Azure OpenAI with your own data
 
-In this lab, you will be using your own data with Azure OpenAI Large Language Models (LLM), which will be made searchable using Azure Cognitive Search. You will be using the Porche Owner's Manual pdf provided under the [Lab 2](/SampleInvoices/Lab%202/) folder.
+In this lab, you will be using your own data with Azure OpenAI Large Language Models (LLM), which will be made searchable using Configure Azure AI Search . You will be using the Porche Owner's Manual pdf provided under the [Lab 2](/SampleInvoices/Lab%202/) folder.
 
 ### Lab Objectives
 In this lab, you will complete the following tasks:
