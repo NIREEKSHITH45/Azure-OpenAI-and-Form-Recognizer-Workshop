@@ -1,19 +1,19 @@
-# Create and Deploy a Form Recognizer Custom Model
+# Create and Deploy a Azure AI Document Intelligence Custom Model
 
-In this lab, you will create (train) an Azure Form Recognizer custom model using a sample training dataset. Custom models extract and analyze distinct data and use cases from forms and documents specific to your business. To create a custom model, you label a dataset of documents with the values you want to extract and train the model on the labeled dataset. You only need five examples of the same form or document type to get started. For this lab, you will use the dataset provided at [Custom Model Sample Files](/SampleInvoices/Custom%20Model%20Sample/).
+In this lab, you will create (train) an Azure AI Document Intelligence custom model using a sample training dataset. Custom models extract and analyze distinct data and use cases from forms and documents specific to your business. To create a custom model, you label a dataset of documents with the values you want to extract and train the model on the labeled dataset. You only need five examples of the same form or document type to get started. For this lab, you will use the dataset provided at [Custom Model Sample Files](/SampleInvoices/Custom%20Model%20Sample/).
 
 ## Lab Objectives
 
 In this lab, you will complete the following tasks:
 
-* Task 1: Creating a Form Recognizer Resource
+* Task 1: Creating an Azure AI Document Intelligence Resource
 * Task 2: Train and Label data
 * Task 3: Build a new pipeline with the custom model module in BPA
 * Task 4: Configure Azure Cognitive Search 
 
 ### Instructions
 
-### Task 1: Creating a Form Recognizer Resource
+### Task 1: Creating an Azure AI Document Intelligence Resource
 
 1. Go to the Resource group, search, and select the **Azure AI services multi-service account** resource type with the name similar to **cogservicesbpa{suffix}**.
 
@@ -44,7 +44,7 @@ In this lab, you will complete the following tasks:
 
    - Subscription: Select your **Default Subscription** **(1)**.
    - Resource group: **business-process-<inject key="Deployment ID" enableCopy="false"/>** **(2)**.
-   - Form Recognizer or Cognitive Service Resource: Select the available Cognitive Service Form Recognizer name similar to **cogservicesbpass{suffix}** **(3)**.
+   - Document Intelligence or Cognitive Service Resource: Select the available Azure AI Search (Cognitive Service) **cogservicesbpass{suffix}** **(3)**.
    - API version: **2022-08-31 (3.0 General Availability)** **(4)**.
 
      ![configuring service resource](images/configure-service-resource.png)
@@ -59,7 +59,7 @@ In this lab, you will complete the following tasks:
    - Pricing tier: **Standard_LRS Standard** **(6)**.
    - Blob container name: **custommoduletext** **(7)**.
    
-        ![storage account](images/connect-training-data-source.png)
+        ![storage account](images/Formai.png)
 
 9. Validate the information and choose **Create project**.
 
@@ -223,11 +223,6 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
 ## Summary
 
-In this hands-on lab, you will create a custom model with Azure Form Recognizer using a sample training dataset.
-
-## More Resources
-
-**Getting Started with Form Recognizer Studio**: https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/form-recognizer-studio-overview?view=form-recog-3.0.0  
-**Form Recognizer Documentation**: https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/concept-invoice?view=form-recog-3.0.0
+In this hands-on lab, you will create a custom model with Azure AI Document Intelligence using a sample training dataset.
 
 ## You have successfully completed this lab. Now click on Next from the lower right corner to move to the next page.
