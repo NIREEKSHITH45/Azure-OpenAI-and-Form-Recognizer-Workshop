@@ -1,6 +1,6 @@
 # Lab 2  Use Azure OpenAI with your own data
 
-In this lab, you will be using your own data with Azure OpenAI Large Language Models (LLM), which will be made searchable using Configure Azure AI Search . You will be using the Porche Owner's Manual pdf provided under the [Lab 2](/SampleInvoices/Lab%202/) folder.
+In this lab, you will be using your own data with Azure OpenAI Large Language Models (LLM), which will be made searchable using Azure AI Search . You will be using the Porche Owner's Manual pdf provided under the [Lab 2](/SampleInvoices/Lab%202/) folder.
 
 ### Lab Objectives
 In this lab, you will complete the following tasks:
@@ -45,7 +45,7 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera, and C
 
          ![](images/cors.png)
 
-    - Select Azure Cognitive Search resource: Select the search service used in the previous lab from the drop-down **(4)**.
+    - Select Azure AI Search  resource: Select the search service used in the previous lab from the drop-down **(4)**.
 
     - Enter the index name: Give an index name as **aoaiworkshop** **(5)**.
 
@@ -114,7 +114,7 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera, and C
 
 ## Summary 
 
-In this hands-on lab, you will use your own data with Azure OpenAI Large Language Models (LLM) and make it searchable using Azure Cognitive Search. The steps involve configuring and integrating these services to enhance data accessibility and searchability.
+In this hands-on lab, you will use your own data with Azure OpenAI Large Language Models (LLM) and make it searchable using Azure AI Search. The steps involve configuring and integrating these services to enhance data accessibility and searchability.
 
 ## You have successfully completed this lab.
 
