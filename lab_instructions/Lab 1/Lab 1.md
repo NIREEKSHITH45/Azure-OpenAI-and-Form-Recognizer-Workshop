@@ -47,7 +47,7 @@ In this lab, you will complete the following tasks:
    - Document Intelligence or Cognitive Service Resource: Select the available Azure AI Search (Cognitive Service) **cogservicesbpass{suffix}** **(3)**.
    - API version: **2022-08-31 (3.0 General Availability)** **(4)**.
 
-     ![configuring service resource](images/configure-service-resource.png)
+        ![storage account](images/Formai.png)
 
 8. Enter the following details **Connect training data source** and click on **Continue** **(8)**.
 
@@ -59,7 +59,7 @@ In this lab, you will complete the following tasks:
    - Pricing tier: **Standard_LRS Standard** **(6)**.
    - Blob container name: **custommoduletext** **(7)**.
    
-        ![storage account](images/Formai.png)
+        (images/connect-training-data-source.png)
 
 9. Validate the information and choose **Create project**.
 
