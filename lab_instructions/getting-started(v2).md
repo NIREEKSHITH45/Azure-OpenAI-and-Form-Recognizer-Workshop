@@ -1,16 +1,16 @@
-# Azure OpenAI and Form Recognizer BPA accelerator to improve Document Analysis
+# Azure OpenAI and Azure AI Document Intelligence BPA accelerator to improve Document Analysis
  
 ## Overall Estimated Duration: 2 Hours
 
 ## Overview
 
-In this lab, you will gain a comprehensive understanding of Azure's advanced data handling and analysis tools. You'll explore how to utilize Azure OpenAI Large Language Models (LLM) and Azure AI Search to make your data searchable. Additionally, you'll delve into creating custom models with Azure Form Recognizer, learning how to extract and analyze specific data from business forms and documents. This lab will showcase the potential of these technologies to build intelligent systems tailored to your business needs, enhancing productivity and delivering hyper-personalized experiences.
+In this lab, you will gain a comprehensive understanding of Azure's advanced data handling and analysis tools. You'll explore how to utilize Azure OpenAI Large Language Models (LLM) and Azure AI Search to make your data searchable. Additionally, you'll delve into creating custom models with Azure AI Document Intelligence, learning how to extract and analyze specific data from business forms and documents. This lab will showcase the potential of these technologies to build intelligent systems tailored to your business needs, enhancing productivity and delivering hyper-personalized experiences.
 
 ## Objective
 
-Understand how to create and deploy a Form Recognizer custom model in Azure, train data, and configure Azure AI Search. Gain skills in building custom model pipelines and streamlining document data extraction. By the end of this lab, you will be able to:
+Understand how to create and deploy an Azure AI Document Intelligence custom model in Azure, train data, and configure Azure AI Search. Gain skills in building custom model pipelines and streamlining document data extraction. By the end of this lab, you will be able to:
 
-- **Create and Deploy a Form Recognizer Custom Model**: Understand how to streamline document data extraction and enhance efficient information retrieval by creating a Form Recognizer resource, training data, building a custom model pipeline in BPA, and configuring Azure AI Search. 
+- **Create and Deploy an Azure AI Document Intelligence Custom Model**: Understand how to streamline document data extraction and enhance efficient information retrieval by creating an Azure AI Document Intelligence resource, training data, building a custom model pipeline in BPA, and configuring Azure AI Search. 
 
 - **Use Azure OpenAI with your own data**: Understand how to navigate the Azure OpenAI Playground, upload your own data, and interact with ChatGPT LLM to customize responses and gain insights from your data.
 
@@ -106,7 +106,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 > [!IMPORTANT]
 *For a smoother experience during the hands-on lab, it's important to thoroughly review both the instructions and the accompanying notes. This will help you navigate through the tasks with ease and confidence.*
 
-This hands-on lab will guide you in using Azure’s advanced tools, including OpenAI LLM, Azure AI Search, and Form Recognizer, to create intelligent systems that enhance productivity and deliver personalized experiences.
+This hands-on lab will guide you in using Azure’s advanced tools, including OpenAI LLM, Azure AI Search, and Azure AI Document Intelligence, to create intelligent systems that enhance productivity and deliver personalized experiences.
 
 ## Support Contact
 
