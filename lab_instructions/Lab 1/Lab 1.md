@@ -223,11 +223,6 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
 ## Summary
 
-In this hands-on lab, you will create a custom model with Azure Form Recognizer using a sample training dataset.
-
-## More Resources
-
-**Getting Started with Form Recognizer Studio**: https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/form-recognizer-studio-overview?view=form-recog-3.0.0  
-**Form Recognizer Documentation**: https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/concept-invoice?view=form-recog-3.0.0
+In this hands-on lab, you will create a custom model with Azure AI Document Intelligence using a sample training dataset.
 
 ## You have successfully completed this lab. Now click on Next from the lower right corner to move to the next page.
