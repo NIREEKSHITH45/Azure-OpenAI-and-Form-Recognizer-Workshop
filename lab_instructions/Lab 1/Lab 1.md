@@ -9,7 +9,7 @@ In this lab, you will complete the following tasks:
 * Task 1: Creating an Azure AI Document Intelligence Resource
 * Task 2: Train and Label data
 * Task 3: Build a new pipeline with the custom model module in BPA
-* Task 4: Configure Azure Cognitive Search 
+* Task 4: Configure Azure AI Search 
 
 ### Instructions
 
@@ -175,7 +175,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
       ![Upload a document](images/pipeline-folder.png)
 
-### Task 4: Configure Azure Cognitive Search 
+### Task 4: Configure Azure AI Search 
 
 1. Navigate back to the resource group window, search, and select **Search Service** with a name similar to **bpa{suffix}**.
 

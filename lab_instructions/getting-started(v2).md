@@ -29,19 +29,17 @@ In this lab, you'll first create custom models with Document Intelligence, focus
 
 ### Explanation of Components
 
-**Ingest**: This stage involves collecting various types of data, such as text, audio, images, and video. These data types are the raw inputs that need to be processed and analyzed.
+**Azure OpenAI**: This component provides access to advanced AI models from OpenAI, enabling natural language processing and other AI capabilities in applications.
 
-**Storage**: The collected data is stored in a scalable storage solution. This component ensures that the ingested data is securely saved and can be accessed by other services when needed.
+**Business Process Automation Accellarator (BPA)**: This component automates business processes by integrating various Azure services, streamlining tasks, and enhancing efficiency.
+
+**Azure Storage**: The collected data is stored in a scalable storage solution. This component ensures that the ingested data is securely saved and can be accessed by other services when needed.
 
 **Trigger**: This component monitors the storage and triggers actions when new data is available. It uses a message queue to manage the data processing workflow efficiently.
 
 **Pipeline Executor**: The pipeline executor, often powered by Azure Functions, runs the necessary code in response to the trigger events. It processes the data and passes it to the cognitive services for further analysis.
 
 **Azure AI Services**: This stage involves multiple cognitive services, which can include natural language processing, image recognition, and other AI-powered features. These services analyze the data and extract meaningful insights.
-
-**Storage**: After processing, the data and extracted insights are stored again. This ensures that the results of the cognitive services are saved for later use, such as visualization or further analysis.
-
-**Visualize**: The final component involves visualizing the processed data and insights. Users can view real-time outputs or interact with the data through a chatbot UI or other visualization tools.
 
 This architecture flow demonstrates how various Azure components work together to handle, process, analyze, and visualize data, providing a comprehensive and intelligent system tailored to business needs.
 
