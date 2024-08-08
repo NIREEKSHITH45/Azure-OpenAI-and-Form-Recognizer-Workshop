@@ -59,7 +59,7 @@ In this lab, you will complete the following tasks:
    - Pricing tier: **Standard_LRS Standard** **(6)**.
    - Blob container name: **custommoduletext** **(7)**.
    
-        (images/connect-training-data-source.png)
+     ![](images/connect-training-data-source.png)
 
 9. Validate the information and choose **Create project**.
 
