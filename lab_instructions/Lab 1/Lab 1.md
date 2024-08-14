@@ -18,6 +18,8 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
 
 ### Task 1: Creating a Form Recognizer Resource
 
+In this task, we will create and configure a Form Recognizer resource in Azure, set up a custom project, and connect it to a new storage account for training data.
+
 1. Go to the Resource group, search, and select the **Azure AI services multi-service account** resource type with a name similar to **cogservicesbpa{suffix}**.
 
    ![Alt text](images/select-multi-service.png)
@@ -70,7 +72,7 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
 
 ### Task 2: Train and Label data
 
-In this step, you will upload 6 training documents to train the model.
+In this task, you will upload 6 training documents to train and 2 test documents to test the model.
 
 1. Click on **Browse for files**.
 
@@ -180,6 +182,8 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
 ### Task 4: Configure Azure Cognitive Search 
 
+In this task, we will configure Azure Cognitive Search to connect to an Azure Blob Storage data source, create an index, and set up an indexer to process and search the data.
+
 1. Navigate back to the resource group window, search, and select **Search Service** with a name similar to **bpa{suffix}**.
 
    ![search service](images/rg3.png)
@@ -232,7 +236,12 @@ In this lab, you have accomplished the following:
 * Test the trained model on test data, visualized results, and confidence scores in the studio.
 * Use the custom model in the BPA pipeline.
 
+## Summary
+
+In this lab, we created and configured a Form Recognizer resource in Azure, set up a custom project, and trained a model with labeled documents. We integrated this custom model into a Business Process Automation pipeline and configured Azure Cognitive Search to index data from Azure Blob Storage for efficient retrieval and search.
+
 ## More Resources
 
 **Getting Started with Form Recognizer Studio**: https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/form-recognizer-studio-overview?view=form-recog-3.0.0  
+
 **Form Recognizer Documentation**: https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/concept-invoice?view=form-recog-3.0.0
