@@ -227,7 +227,7 @@ In this task, we will configure Azure Cognitive Search to connect to an Azure Bl
    
    ![Create an indexer](images/create-an-indexer.png)
 
-## Summary
+## Review
 
 In this lab, you have accomplished the following:
 
@@ -236,7 +236,12 @@ In this lab, you have accomplished the following:
 * Test the trained model on test data, visualized results, and confidence scores in the studio.
 * Use the custom model in the BPA pipeline.
 
+## Summary
+
+In this lab, we created and configured a Form Recognizer resource in Azure, set up a custom project, and trained a model with labeled documents. We integrated this custom model into a Business Process Automation (BPA) pipeline and configured Azure Cognitive Search to index data from Azure Blob Storage for efficient retrieval and search.
+
 ## More Resources
 
 **Getting Started with Form Recognizer Studio**: https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/form-recognizer-studio-overview?view=form-recog-3.0.0  
+
 **Form Recognizer Documentation**: https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/concept-invoice?view=form-recog-3.0.0
