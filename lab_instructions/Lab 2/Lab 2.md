@@ -14,6 +14,8 @@ In this lab, you will be using your own data with Azure OpenAI Large Language Mo
 
 ### Task 1: Navigate to Azure OpenAI Playground
 
+Access the Azure OpenAI Studio and navigate to the "Bring your own data" section.
+
 1. Navigate back to the Resource groups and select the resource group **business-process-<inject key="Deployment ID" enableCopy="false"/>**.
 
    ![OpenAI](images/rgg.png)
@@ -32,7 +34,7 @@ In this lab, you will be using your own data with Azure OpenAI Large Language Mo
 
 ### Task 2: Upload your own data
 
-In this step, we will be using Porche's owner manual for the Taycan, Panamera, and Cayenne models.
+In this task, we will be using Porche's owner manual for the Taycan, Panamera, and Cayenne models.
 
 1. Fill the following details in **Select or add data source** and click on **Next** **(6)**.
     
@@ -69,6 +71,8 @@ In this step, we will be using Porche's owner manual for the Taycan, Panamera, a
    ![Save and close](images/bring-your-owndata-save.png)
 
 ### Task 3: Interact with Azure OpenAI ChatGPT LLM using your own data
+
+Test and interact with the ChatGPT model using your uploaded data to generate relevant responses.
 
 1. Under the **Assistant Setup** pane, wait until your data upload is finished.
 
@@ -109,5 +113,9 @@ In this step, we will be using Porche's owner manual for the Taycan, Panamera, a
 In this lab, you have accomplished the following:
 
 * How to leverage the ChatGPT LLM to extract a concise summary from your own document repository using OpenAI.
+
+## Summary
+
+  In this lab, you will learn to navigate the Azure OpenAI Playground, upload and configure a Porsche Owner's Manual PDF in Azure OpenAI Studio, and interact with the ChatGPT model using your own data to generate and test responses to queries about Porsche cars.
 
 ## You have successfully completed the lab.
