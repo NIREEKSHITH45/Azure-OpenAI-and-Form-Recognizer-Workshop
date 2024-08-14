@@ -18,6 +18,8 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
 
 ### Task 1: Creating a Form Recognizer Resource
 
+In this task, we will create and configure a Form Recognizer resource in Azure, set up a custom project, and connect it to a new storage account for training data.
+
 1. Go to the Resource group, search, and select the **Azure AI services multi-service account** resource type with a name similar to **cogservicesbpa{suffix}**.
 
    ![Alt text](images/select-multi-service.png)
@@ -70,7 +72,7 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
 
 ### Task 2: Train and Label data
 
-In this step, you will upload 6 training documents to train the model.
+In this task, you will upload 6 training documents to train and 2 test documents to test the model.
 
 1. Click on **Browse for files**.
 
@@ -180,6 +182,8 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
 ### Task 4: Configure Azure Cognitive Search 
 
+In this task, we will configure Azure Cognitive Search to connect to an Azure Blob Storage data source, create an index, and set up an indexer to process and search the data.
+
 1. Navigate back to the resource group window, search, and select **Search Service** with a name similar to **bpa{suffix}**.
 
    ![search service](images/rg3.png)
@@ -223,7 +227,7 @@ After you are satisfied with the custom model performance, you can retrieve the 
    
    ![Create an indexer](images/create-an-indexer.png)
 
-## Review
+## Summary
 
 In this lab, you have accomplished the following:
 
