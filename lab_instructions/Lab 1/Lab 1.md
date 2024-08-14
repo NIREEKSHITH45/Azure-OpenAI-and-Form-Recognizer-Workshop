@@ -238,7 +238,7 @@ In this lab, you have accomplished the following:
 
 ## Summary
 
-In this lab, we created and configured a Form Recognizer resource in Azure, set up a custom project, and trained a model with labeled documents. We integrated this custom model into a Business Process Automation (BPA) pipeline and configured Azure Cognitive Search to index data from Azure Blob Storage for efficient retrieval and search.
+In this lab, we created and configured a Form Recognizer resource in Azure, set up a custom project, and trained a model with labeled documents. We integrated this custom model into a Business Process Automation pipeline and configured Azure Cognitive Search to index data from Azure Blob Storage for efficient retrieval and search.
 
 ## More Resources
 
