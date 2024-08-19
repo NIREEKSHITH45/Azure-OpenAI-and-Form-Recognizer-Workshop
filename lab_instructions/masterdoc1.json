@@ -9,7 +9,7 @@
                 "Order": 1
             },
             {
-                "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/Cloudlabs-git/Azure-OpenAI-and-Form-Recognizer-Workshop/guided-labs/lab_instructions/Lab%201/Lab%201.md",
+                "RawFilePath": "https://raw.githubusercontent.com/Cloudlabs-git/Azure-OpenAI-and-Form-Recognizer-Workshop/guided-labs/lab_instructions/Lab%201/Lab%201.md",
                 "Order": 2
             }
         ]
