@@ -70,6 +70,8 @@ In this task, we will be using Porche's owner manual for the Taycan, Panamera, a
 
    ![Save and close](images/bring-your-owndata-save.png)
 
+   <validation step="8f37ff68-c140-4a17-8af7-92838fba1d91" />
+
 ### Task 3: Interact with Azure OpenAI ChatGPT LLM using your own data
 
 Test and interact with the ChatGPT model using your uploaded data to generate relevant responses.

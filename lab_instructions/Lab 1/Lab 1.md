@@ -64,11 +64,13 @@ In this task, we will create and configure a Form Recognizer resource in Azure, 
    - Pricing tier: **Standard_LRS Standard** **(6)**.
    - Blob container name: **custommoduletext** **(7)**.
    
-        ![storage account](images/connect-training-data-source.png)
+     ![storage account](images/connect-training-data-source.png)
 
 9. Validate the information and choose **Create project**.
 
      ![Alt text](images/create-project.png)
+
+   <validation step="df8ab28a-e899-4c86-8585-51126ee27662" />
 
 ### Task 2: Train and Label data
 
@@ -226,6 +228,8 @@ In this task, we will configure Azure Cognitive Search to connect to an Azure Bl
 7. On the **Create an indexer** page, enter the name as **azureblob-indexer** **(1)** and click on **Submit** **(2)**.
    
    ![Create an indexer](images/create-an-indexer.png)
+
+   <validation step="01aa843c-7b41-4133-8f44-2071cdb89936" />
 
 ## Review
 
