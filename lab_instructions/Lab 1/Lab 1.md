@@ -11,8 +11,6 @@ In this lab, you will complete the following tasks:
 * Task 3: Build a new pipeline with the custom model module in BPA
 * Task 4: Configure Azure AI Search 
 
-### Instructions
-
 ### Task 1: Creating an Azure AI Document Intelligence Resource
 
 1. Go to the Resource group, search, and select the **Azure AI services multi-service account** resource type with the name similar to **cogservicesbpa{suffix}**.
@@ -225,4 +223,4 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
 In this hands-on lab, you will create a custom model with Azure AI Document Intelligence using a sample training dataset.
 
-## You have successfully completed this lab. Now click on Next from the lower right corner to move to the next page.
+## You have successfully completed this lab.
