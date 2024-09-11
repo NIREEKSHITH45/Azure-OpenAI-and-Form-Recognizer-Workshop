@@ -1,4 +1,4 @@
-# Create and Deploy a Azure AI Document Intelligence Custom Model
+# Lab 01: Create and Deploy a Azure AI Document Intelligence Custom Model
 
 In this lab, you will create (train) an Azure AI Document Intelligence custom model using a sample training dataset. Custom models extract and analyze distinct data and use cases from forms and documents specific to your business. To create a custom model, you label a dataset of documents with the values you want to extract and train the model on the labeled dataset. You only need five examples of the same form or document type to get started. For this lab, you will use the dataset provided at [Custom Model Sample Files](/SampleInvoices/Custom%20Model%20Sample/).
 
@@ -10,8 +10,6 @@ In this lab, you will complete the following tasks:
 * Task 2: Train and Label data
 * Task 3: Build a new pipeline with the custom model module in BPA
 * Task 4: Configure Azure AI Search 
-
-### Instructions
 
 ### Task 1: Creating an Azure AI Document Intelligence Resource
 
@@ -225,4 +223,4 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
 In this hands-on lab, you will create a custom model with Azure AI Document Intelligence using a sample training dataset.
 
-## You have successfully completed this lab. Now click on Next from the lower right corner to move to the next page.
+## You have successfully completed this lab.

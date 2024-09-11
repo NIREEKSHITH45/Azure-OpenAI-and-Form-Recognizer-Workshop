@@ -1,15 +1,14 @@
-# Lab 2  Use Azure OpenAI with your own data
+# Lab 02: Use Azure OpenAI with your own data
 
-In this lab, you will be using your own data with Azure OpenAI Large Language Models (LLM), which will be made searchable using Azure AI Search . You will be using the Porche Owner's Manual pdf provided under the [Lab 2](/SampleInvoices/Lab%202/) folder.
+In this lab, you will be using your own data with Azure OpenAI Large Language Models (LLM), which will be made searchable using Azure AI Search . You will be using the Porche Owner's Manual pdf provided under the `C:\Users\Public\Desktop\Data\Lab 2` folder.
 
 ### Lab Objectives
+
 In this lab, you will complete the following tasks:
 
 * Task 1: Navigate to Azure OpenAI Playground
 * Task 2: Upload your own data
 * Task 3: Interact with Azure OpenAI ChatGPT LLM using your own data
-
-### Instructions
 
 ### Task 1: Navigate to Azure OpenAI Playground
 
