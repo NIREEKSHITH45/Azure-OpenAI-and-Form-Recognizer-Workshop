@@ -73,11 +73,11 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera, and C
 
 ### Task 3: Interact with Azure OpenAI ChatGPT LLM using your own data
 
-1. Under the **Assistant Setup** pane, wait until your data upload is finished.
+1. Under the **Setup** pane, wait until your data upload is finished.
 
-   ![upload-data](images/upload-data.png)
+   ![upload-data](images/setup1.png)
 
-   ![upload-data](images/BPA3.png)
+   ![upload-data](images/setup.png)
 
 2. Under the **Chat Session** pane, you can start testing out your prompts by entering the query like this.
 
@@ -87,7 +87,7 @@ In this step, we will be using Porche's owner manual for Taycan, Panamera, and C
 
       ![chat-session-one](images/screen.png)
 
-3. You can also configure the responses of your bot by selecting the system message under **Assistance Setup**, and click on **System message** **(1)** to replace the value under the system message with `Your name is Alice. You are an AI assistant that helps people find information about Porche cars. Your responses should not contain any harmful information` **(2)** and click on **Save changes** **(3)**. Here we have edited the default system message.
+3. You can also configure the responses of your bot by selecting the system message under **Setup**, and click on **System message** **(1)** to replace the value under the system message with `Your name is Alice. You are an AI assistant that helps people find information about Porche cars. Your responses should not contain any harmful information` **(1)** and click on **Apply changes** **(2)**. Here we have edited the default system message.
 
    ![assistant-setup-system-message](images/applychnages.png)
 
