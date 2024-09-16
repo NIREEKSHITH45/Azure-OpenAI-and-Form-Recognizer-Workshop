@@ -38,7 +38,7 @@ In this lab, you will complete the following tasks:
 
      ![Alt text](images/enter-project-details.png)
 
-7. Enter the following details **Configure service resource** and click on **Continue** **(5)**.
+7. Enter the following details **Configure service resource** and click on **Continue**.
 
    - Subscription: Select your **Default Subscription** **(1)**.
    - Resource group: **business-process-<inject key="Deployment ID" enableCopy="false"/>** **(2)**.
