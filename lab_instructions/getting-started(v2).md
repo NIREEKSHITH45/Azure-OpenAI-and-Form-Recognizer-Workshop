@@ -75,7 +75,13 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
    * **Password**: <inject key="AzureAdUserPassword"></inject>
    
       ![](images/signin-pword.png "Enter Password")
-     
+
+1. If you see the pop-up Action Required, click Ask Later.
+
+   ![](../images/asklater.png)
+
+   >**NOTE:** Do not enable MFA, select **Ask Later**.
+   
 1. If you see the pop-up **Stay Signed in?**, select **No**.
 
 1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
@@ -108,7 +114,7 @@ Learner Support Contacts:
 - Email Support: labs-support@spektrasystems.com
 - Live Chat Support: https://cloudlabs.ai/labs-support
   
-Now, click on Next from the lower right corner to move on to the next page.
+Now, click on **Next** from the lower right corner to move on to the next page.
 
-## Happy Learning!!
+### Happy Learning!!
 
