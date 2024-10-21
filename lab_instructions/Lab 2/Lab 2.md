@@ -22,15 +22,19 @@ Access the Azure OpenAI Studio and navigate to the "Bring your own data" section
 
 2. On the Resource group, search, and select the **Azure OpenAI (1)** resource type with a name similar to **Copilot-OpenAI-<inject key="Deployment ID" enableCopy="false"/> (2)**.
 
-   ![OpenAI](images/03-07-2024.png)
+   ![OpenAI](images/eyhackday3img1.png)
 
 3. On the **Azure OpenAI** page, click on **Go to Azure OpenAI Studio**.
 
-   ![OpenAI Studio](images/03-07-2024(1).png)
+   ![OpenAI Studio](images/eyhackday3img2.png)
 
-4. On the **Azure OpenAI Studio**, scroll down click on **Bring your own data**.
+4. On the **Azure OpenAI Studio**, scroll down click on **Try it now** under **Bring your own data**.
 
-   ![Azure OpenAI Studio](images/02-05-2024(4).png)
+   ![Azure OpenAI Studio](images/eyhackday3img3.png)
+
+5. On **Chat playground** pane, select **Add your data (1)** tab and click on **+ Add a data source (2)**.
+
+   ![](images/eyhackday3img4.png)
 
 ### Task 2: Upload your own data
 
@@ -90,9 +94,9 @@ Test and interact with the ChatGPT model using your uploaded data to generate re
 
       ![chat-session-one](images/newfor2.png)
 
-3. You can also configure the responses of your bot by selecting the system message under **Setup**, and clicking on **Prompt** **(1)** to replace the value under the system message with `Your name is Alice. You are an AI assistant that helps people find information about Porche cars. Your responses should not contain any harmful information` **(2)** and click on **Apply changes** **(3)**. Here we have edited the default system message.
+3. You can also configure the responses of your bot by selecting the **system message (1)** under **Setup**, replace the value under the system message with `Your name is Alice. You are an AI assistant that helps people find information about Porche cars. Your responses should not contain any harmful information` **(2)** and click on **Save** **(3)**. Here we have edited the default system message.
 
-   ![assistant-setup-system-message](images/newfor3.png)
+   ![assistant-setup-system-message](images/eyhackday3img5.png)
 
 4. On **Update system message?** pop-up, click on **Continue**.
 
@@ -104,11 +108,11 @@ Test and interact with the ChatGPT model using your uploaded data to generate re
      What is your name
     ```
    
-   ![chat-session-two](images/chat-session-two.png)
+   ![chat-session-two](images/eyhackday3img6.png)
 
 6. In the **Configuration** pane, click on **Parameters**. You can try and experiment with different parameter configurations to see how they change the behavior of the model.
 
-    ![Alt text](images/BPA2.png)
+    ![Alt text](images/eyhackday3img7.png)
 
 ## Review
 
