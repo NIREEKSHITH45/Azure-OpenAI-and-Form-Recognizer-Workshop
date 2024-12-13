@@ -1,4 +1,4 @@
-# Create and Deploy a Form Recognizer Custom Model
+# Create and Deploy a Document Intelligence Custom Model
 
 ### Overview
 In this lab, you will create (train) an Azure Form Recognizer custom model using a sample training dataset. Custom models extract and analyze distinct data and use cases from forms and documents specific to your business. To create a custom model, you label a dataset of documents with the values you want to extract and train the model on the labeled dataset. You only need five examples of the same form or document type to get started. For this lab, you will use the dataset provided at [Custom Model Sample Files](/SampleInvoices/Custom%20Model%20Sample/).
@@ -16,9 +16,9 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
 
 ### Instructions
 
-### Task 1: Creating a Form Recognizer Resource
+### Task 1: Creating a Document Intelligence Resource
 
-In this task, we will create and configure a Form Recognizer resource in Azure, set up a custom project, and connect it to a new storage account for training data.
+In this task, we will create and configure a Document Intelligence resource in Azure, set up a custom project, and connect it to a new storage account for training data.
 
 1. Go to the Resource group, search, and select the **Azure AI services multi-service account** resource type with a name similar to **cogservicesbpa{suffix}**.
 
@@ -49,10 +49,10 @@ In this task, we will create and configure a Form Recognizer resource in Azure, 
 
    - Subscription: Select your **Default Subscription** **(1)**.
    - Resource group: **business-process-<inject key="Deployment ID" enableCopy="false"/>** **(2)**.
-   - Form Recognizer or Cognitive Service Resource: Select the available Cognitive Service Form Recognizer name similar to **cogservicesbpass{suffix}** **(3)**.
+   - Document Intelligence or Cognitive Service Resource: Select the available Cognitive Service Form Recognizer name similar to **cogservicesbpass{suffix}** **(3)**.
    - API version: **2022-08-31 (3.0 General Availability)** **(4)**.
 
-     ![configuring service resource](images/configure-service-resource.png)
+     ![configuring service resource](images/L1T1S6.png)
 
 8. Enter the following details **Connect training data source** and click on **Continue** **(8)**.
 
