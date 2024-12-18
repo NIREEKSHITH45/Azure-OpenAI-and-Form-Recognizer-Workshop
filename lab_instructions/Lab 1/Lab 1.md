@@ -1,17 +1,17 @@
 # Create and Deploy a Document Intelligence Custom Model
 
 ### Overview
-In this lab, you will create (train) an Azure Form Recognizer custom model using a sample training dataset. Custom models extract and analyze distinct data and use cases from forms and documents specific to your business. To create a custom model, you label a dataset of documents with the values you want to extract and train the model on the labeled dataset. You only need five examples of the same form or document type to get started. For this lab, you will use the dataset provided at [Custom Model Sample Files](/SampleInvoices/Custom%20Model%20Sample/).
+In this lab, you will create (train) an Azure Document Intelligence custom model using a sample training dataset. Custom models extract and analyze distinct data and use cases from forms and documents specific to your business. To create a custom model, you label a dataset of documents with the values you want to extract and train the model on the labeled dataset. You only need five examples of the same form or document type to get started. For this lab, you will use the dataset provided at [Custom Model Sample Files](/SampleInvoices/Custom%20Model%20Sample/).
 
 ### Goal
-* Use a sample training data set to train a custom model in the Azure Form Recognizer Studio.
+* Use a sample training data set to train a custom model in the Azure Document Intelligence Studio.
 * Label the training data documents with custom fields of interest.
 * Test the trained model on test data, visualized results, and confidence scores in the studio.
 * Use the custom model in the BPA pipeline.
 
 ### Pre-requisites
 * The accelerator is deployed and ready in the resource group.
-* You have an Azure subscription and permission to create a Form Recognizer Resource.
+* You have an Azure subscription and permission to create a Document Intelligence Resource.
 * You have access to the sample invoices folder with the invoices to upload.
 
 ### Instructions
@@ -49,7 +49,7 @@ In this task, we will create and configure a Document Intelligence resource in A
 
    - Subscription: Select your **Default Subscription** **(1)**.
    - Resource group: **business-process-<inject key="Deployment ID" enableCopy="false"/>** **(2)**.
-   - Document Intelligence or Cognitive Service Resource: Select the available Cognitive Service Form Recognizer name similar to **cogservicesbpass{suffix}** **(3)**.
+   - Document Intelligence or Cognitive Service Resource: Select the available Cognitive Service Document Intelligence name similar to **cogservicesbpass{suffix}** **(3)**.
    - API version: **2022-08-31 (3.0 General Availability)** **(4)**.
 
      ![configuring service resource](images/L1T1S6.png)
@@ -72,6 +72,10 @@ In this task, we will create and configure a Document Intelligence resource in A
 
    <validation step="df8ab28a-e899-4c86-8585-51126ee27662" />
 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help
 ### Task 2: Train and Label data
 
 In this task, you will upload 6 training documents to train and 2 test documents to test the model.
@@ -230,22 +234,26 @@ In this task, we will configure Azure Cognitive Search to connect to an Azure Bl
    ![Create an indexer](images/create-an-indexer.png)
 
    <validation step="01aa843c-7b41-4133-8f44-2071cdb89936" />
-
+   
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help
 ## Review
 
 In this lab, you have accomplished the following:
 
-* Use a sample training data set to train a custom model in the Azure Form Recognizer Studio.
+* Use a sample training data set to train a custom model in the Azure Document Intelligence Studio.
 * Label the training data documents with custom fields of interest.
 * Test the trained model on test data, visualized results, and confidence scores in the studio.
 * Use the custom model in the BPA pipeline.
 
 ## Summary
 
-In this lab, we created and configured a Form Recognizer resource in Azure, set up a custom project, and trained a model with labeled documents. We integrated this custom model into a Business Process Automation pipeline and configured Azure Cognitive Search to index data from Azure Blob Storage for efficient retrieval and search.
+In this lab, we created and configured a Document Intelligence resource in Azure, set up a custom project, and trained a model with labeled documents. We integrated this custom model into a Business Process Automation pipeline and configured Azure Cognitive Search to index data from Azure Blob Storage for efficient retrieval and search.
 
 ## More Resources
 
-**Getting Started with Form Recognizer Studio**: https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/form-recognizer-studio-overview?view=form-recog-3.0.0  
+**Getting Started with Document Intelligence Studio**: https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/form-recognizer-studio-overview?view=form-recog-3.0.0  
 
-**Form Recognizer Documentation**: https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/concept-invoice?view=form-recog-3.0.0
+**Document Intelligence Documentation**: https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/concept-invoice?view=form-recog-3.0.0
