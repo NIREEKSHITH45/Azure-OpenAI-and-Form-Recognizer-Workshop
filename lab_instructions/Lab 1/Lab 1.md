@@ -28,6 +28,10 @@ In this task, we will create and configure a Document Intelligence resource in A
 
    ![Alt text](images/02-05-2024(1).png)
 
+   >**Note** : If the Document Intelligence option is not visible, click on the ellipsis (…) and select Document Intelligence.
+
+   ![](images/doc.png)
+
 3. In Document Intelligence Studio, scroll down to Custom Models and choose **Get started**.
 
    ![Alt text](images/02-05-2024(2).png)
@@ -234,7 +238,7 @@ In this task, we will configure Azure Cognitive Search to connect to an Azure Bl
    ![Create an indexer](images/create-an-indexer.png)
 
    <validation step="01aa843c-7b41-4133-8f44-2071cdb89936" />
-   
+
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
