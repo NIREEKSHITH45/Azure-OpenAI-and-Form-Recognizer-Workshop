@@ -1,7 +1,7 @@
 # Use Azure OpenAI with your own data
 
 ### Overview
-In this lab, you will be using your own data with Azure OpenAI Large Language Models (LLM), which will be made searchable using Azure Cognitive Search. You will be using the Porche Owner's Manual pdf provided under the [Lab 2](/SampleInvoices/Lab%202/) folder.
+In this lab, you will be using your own data with Azure OpenAI Large Language Models (LLM), which will be made searchable using Azure AI Search. You will be using the Porche Owner's Manual pdf provided under the [Lab 2](/SampleInvoices/Lab%202/) folder.
 
 ### Goal
 * How to leverage the ChatGPT LLM to extract a concise summary from your own document repository using OpenAI.
@@ -48,7 +48,7 @@ In this task, we will be using Porche's owner manual for the Taycan, Panamera, a
 
     - Select Azure Blob storage resource: Choose the already created storage account from the drop-down **copilotstorage<inject key="Deployment ID" enableCopy="false"/>** **(3)**. If asked, enable CORS.
 
-    - Select Azure Cognitive Search resource: Select the search service from the drop-down **acs-<inject key="Deployment ID" enableCopy="false"/>** **(4)**.
+    - Select Azure AI Search resource: Select the search service from the drop-down **acs-<inject key="Deployment ID" enableCopy="false"/>** **(4)**.
 
     - Enter the index name: Give an index name as **aoaiworkshop** **(5)**
 
@@ -75,6 +75,11 @@ In this task, we will be using Porche's owner manual for the Taycan, Panamera, a
    ![Save and close](images/bring-your-owndata-save.png)
 
    <validation step="8f37ff68-c140-4a17-8af7-92838fba1d91" />
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help
 
 ### Task 3: Interact with Azure OpenAI ChatGPT LLM using your own data
 
