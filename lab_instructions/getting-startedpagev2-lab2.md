@@ -1,42 +1,40 @@
-# Create and Deploy a Document Intelligence Custom Model
+# Use Azure OpenAI with your own data
 
-### Overall Estimated Duration: 1 hour
+### Overall Estimated Duration: 1 hour 30 minutes
 
 ## Overview
 
-In this lab focuses on creating and utilizing a custom Document Intelligence solution in Azure to analyze and process documents effectively. The implementation includes resource setup, model training, pipeline integration, and search optimization.
+In this lab focuses navigating to the Azure OpenAI Playground, uploading your own data, and interacting with the Azure OpenAI ChatGPT Large Language Model (LLM) to process and analyze the uploaded data, enabling advanced AI-driven insights and responses.
 
 ## Objective
 
-Understand how to create and deploy an Azure AI Document Intelligence custom model in Azure, train data, and configure Azure AI Search.
+Understand how to navigate the Azure OpenAI Playground, upload custom data, and interact with the Azure OpenAI ChatGPT Large Language Model (LLM) to gain advanced AI-driven insights. By the end of this lab, you will be able to:
 
-- **Create and Deploy a Document Intelligence Custom Model:** Understand how to streamline document data extraction and enhance efficient information retrieval by creating an Azure AI Document Intelligence resource, training data, building a custom model pipeline in BPA, and configuring Azure AI Search.
+- **Use Azure OpenAI with your own data:** Understand how to navigate the Azure OpenAI Playground, upload your own data, and interact with ChatGPT LLM to customize responses and gain insights from your data.
 
 ## Pre-requisites
 
-- Familiarity with Azure’s suite of AI tools.
+- Access to Azure OpenAI chat playground.
 
-- Basic knowledge of BPA and how to build and manage data processing pipelines.
+- Sample data to test with OpenAI.
 
 ## Architecture
 
-The architecture leverages Azure Document Intelligence for document analysis and data extraction. A custom project is set up with storage for training data, and the trained model is integrated into a Business Process Automation (BPA) pipeline. Azure AI Search connects to Azure Blob Storage, creating an index and indexer for efficient data processing and search. This setup enables seamless document processing, automation, and advanced search capabilities.
+The architecture leverages Azure's advanced data handling tools, using Azure OpenAI Large Language Models (LLM) alongside Azure AI Search to make your data searchable and accessible. This flow integrates these components to build intelligent systems that enhance productivity and deliver personalized experiences, showcasing the powerful capabilities of Azure's AI and data analysis technologies tailored to your business needs.
 
 ## Architecture Diagram
 
- ![](../lab_instructions/images/bpaarc1.png)
+ ![](../lab_instructions/images/bpaarc2.JPG)
 
 ## Explanation of Components
 
 The architecture for this lab involves the following key components:
 
-- **Azure Document Intelligence:** Enables advanced document processing and analysis by creating and configuring a custom project with training data stored in Azure Blob Storage.
+- **Azure OpenAI Playground:** Provides an interactive environment for exploring and utilizing Azure's OpenAI models, such as ChatGPT, to process and analyze your own data.
 
-- **Azure Blob Storage:** Serves as the repository for storing training and test documents required for model training and evaluation.
+- **Uploaded Data:** Allows users to upload their own datasets into the Azure OpenAI Playground, enabling personalized AI interactions based on the data provided.
 
-- **Business Process Automation (BPA):** Integrates the trained custom model into workflows using the Custom Model module, automating document processing tasks and improving operational efficiency.
-
-- **Azure AI Search:** Connects to the Blob Storage data source, enabling indexing and search capabilities. 
+- **Azure OpenAI ChatGPT LLM:** Leverages large language models (LLM) to interact with the uploaded data, performing tasks such as data extraction, natural language understanding, and generating insights or responses from the data.
 
 ## Getting Started with Lab
 
