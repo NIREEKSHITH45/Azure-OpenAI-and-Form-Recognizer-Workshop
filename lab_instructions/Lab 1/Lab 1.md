@@ -190,9 +190,9 @@ After you are satisfied with the custom model performance, you can retrieve the 
 
       ![Upload a document](images/pipeline-folder.png)
 
-### Task 4: Configure Azure Cognitive Search 
+### Task 4: Configure Azure AI Search 
 
-In this task, we will configure Azure Cognitive Search to connect to an Azure Blob Storage data source, create an index, and set up an indexer to process and search the data.
+In this task, we will configure Azure AI Search to connect to an Azure Blob Storage data source, create an index, and set up an indexer to process and search the data.
 
 1. Navigate back to the resource group window, search, and select **Search Service** with a name similar to **bpa{suffix}**.
 

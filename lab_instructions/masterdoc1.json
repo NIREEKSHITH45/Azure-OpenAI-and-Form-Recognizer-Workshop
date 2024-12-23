@@ -5,7 +5,7 @@
         "BaseURL": "https://github.com/Cloudlabs-git/Azure-OpenAI-and-Form-Recognizer-Workshop",
         "Files": [
             {
-                "RawFilePath": "https://raw.githubusercontent.com/Cloudlabs-git/Azure-OpenAI-and-Form-Recognizer-Workshop/guided-labs/lab_instructions/getting-started.md",
+                "RawFilePath": "https://raw.githubusercontent.com/Cloudlabs-git/Azure-OpenAI-and-Form-Recognizer-Workshop/guided-labs/lab_instructions/getting-startedv2-lab1.md",
                 "Order": 1
             },
             {
