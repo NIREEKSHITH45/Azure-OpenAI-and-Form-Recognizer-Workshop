@@ -8,24 +8,15 @@ In this lab focuses on creating and utilizing a custom Document Intelligence sol
 
 ## Objective
 
-Participants should have:
+Understand how to create and deploy an Azure AI Document Intelligence custom model in Azure, train data, and configure Azure AI Search.
 
-- Use a sample training data set to train a custom model in the Azure Document Intelligence Studio.
-
-- Label the training data documents with custom fields of interest.
-
-- Test the trained model on test data, visualized results, and confidence scores in the studio.
-
-- Use the custom model in the BPA pipeline.
-
+**Create and Deploy a Document Intelligence Custom Model:** Understand how to streamline document data extraction and enhance efficient information retrieval by creating an Azure AI Document Intelligence resource, training data, building a custom model pipeline in BPA, and configuring Azure AI Search.
 
 ## Pre-requisites
 
-- The accelerator is deployed and ready in the resource group.
+- Familiarity with Azure’s suite of AI tools.
 
-- You have an Azure subscription and permission to create a Document Intelligence Resource.
-
-- You have access to the sample invoices folder with the invoices to upload.
+- Basic knowledge of BPA and how to build and manage data processing pipelines.
 
 ## Architecture
 
@@ -39,13 +30,13 @@ The architecture leverages Azure Document Intelligence for document analysis and
 
 The architecture for this lab involves the following key components:
 
-- **Azure Document Intelligence:** Enables advanced document processing and analysis by creating and configuring a custom project with training data stored in Azure Blob Storage. This resource facilitates data extraction, labeling, and model training.
+- **Azure Document Intelligence:** Enables advanced document processing and analysis by creating and configuring a custom project with training data stored in Azure Blob Storage.
 
 - **Azure Blob Storage:** Serves as the repository for storing training and test documents required for model training and evaluation.
 
 - **Business Process Automation (BPA):** Integrates the trained custom model into workflows using the Custom Model module, automating document processing tasks and improving operational efficiency.
 
-- **Azure AI Search:** Connects to the Blob Storage data source, enabling indexing and search capabilities. This service processes data, creates an index, and sets up an indexer for efficient document retrieval and analysis.
+- **Azure AI Search:** Connects to the Blob Storage data source, enabling indexing and search capabilities. 
 
 ## Getting Started with Lab
 
@@ -113,8 +104,6 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
    ![](../images/select-rg.png)
  
 1. We have already pre-deployed all the required resources, which you will be using throughout the lab.
-
-By completing these exercises, participants will integrate OpenAI models for data processing, deploy and scale applications using Flask and Azure App Service, and automate communication workflows through Azure Bot Service and Azure Logic Apps.
  
 ## Support Contact
  
